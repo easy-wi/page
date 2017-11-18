@@ -93,7 +93,7 @@ pages:
           - Übersicht: 'de/admin/game-server/uebersicht.md'
           - Templates: 'de/admin/game-server/templates.md'
           - Addons: 'de/admin/game-server/addons.md'
-#          - Datei Templates : 'de/admin/game-server/datei-templates.md'
+          - Datei Templates : 'de/admin/game-server/datei-templates.md'
           - Easy Anti Cheat: 'de/admin/game-server/easy-anti-cheat.md'
         - App/Game Master:
           - Übersicht: 'de/admin/app-game-master/uebersicht.md'
@@ -108,7 +108,7 @@ pages:
         - Game Server:
           - Übersicht: 'de/user/game-server/uebersicht.md'
           - Fast Download: 'de/user/game-server/fast-download.md'
-#        - Umzugsservice: 'de/user/game-server/.md'
-#        - Datei Templates: 'de/user/game-server/.md'
+          - Umzugsservice: 'de/user/game-server/umzugsservice.md'
+          - Datei Templates: 'de/user/game-server/datei-templates.md'
 #    - API:
   - License: license.md
