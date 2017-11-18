@@ -76,6 +76,7 @@ pages:
         - Einstellungen:
           - Einstellungen: 'de/admin-einstellungen.md'
           - E-Mail Einstellungen: 'de/admin-email-einstellungen.md'
+          - Impressum Einstellungen: 'de/admin-imprint-einstellungen.md'
 #        - Jobs/API:
 #        - Feeds:
 #        - CMS:
