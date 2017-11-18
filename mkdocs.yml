@@ -92,7 +92,7 @@ pages:
         - Jobs/API:
           - Übersicht: 'de/admin/jobs-api/uebersicht.md'
 #          - API Einstellungen: 'de/admin/jobs-api/api-einstellungen.md'
-#          - Externe Authentifizierung: 'de/admin/jobs-api/externe-authentifizierung.md'
+          - Externe Authentifizierung: 'de/admin/jobs-api/externe-authentifizierung.md'
 #          - Benutzer Import: 'de/admin/jobs-api/benutzer-import.md'
         - Feeds:
           - News: 'de/admin/feeds/news.md'
