@@ -104,9 +104,9 @@ pages:
           - Übersicht: 'de/admin/leih-server/uebersicht.md'
           - Einstellungen: 'de/admin/leih-server/einstelltungen.md'
 #        - Support:
-#    - User:
-#      - Game Server:
-#        - Übersicht: 'de/user/game-server/.md'
+      - User:
+        - Game Server:
+          - Übersicht: 'de/user/game-server/uebersicht.md'
 #        - Addons: 'de/user/game-server/.md'
 #        - Fast Download: 'de/user/game-server/.md'
 #        - Umzugsservice: 'de/user/game-server/.md'
