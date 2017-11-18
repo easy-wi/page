@@ -73,7 +73,9 @@ pages:
         - Image Server: 'de/installation-image-server.md'
       - Admin:
 #        - Home:
-#        - Settings:
+        - Einstellungen:
+          - Einstellungen: 'de/admin-einstellungen.md'
+#          - E-Mail Einstellungen: 'de/admin-email-einstellungen.md'
 #        - Jobs/API:
 #        - Feeds:
 #        - CMS:
@@ -81,7 +83,7 @@ pages:
 #        - MySQL:
 #        - User:
 #        - Game Server:
-#          - Templates: 'de/game-server-templates.md'
+#          - Templates: 'de/admin-game-server-templates.md'
 #        - App/Game Master:
 #          - Master Server: 'de/admin-app-game-master.md'
 #          - Master Apps: 'de/admin-app-game-master-apps.md'
