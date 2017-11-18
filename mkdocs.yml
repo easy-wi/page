@@ -92,6 +92,8 @@ pages:
         - Game Server:
           - Templates: 'de/admin/game-server/templates.md'
           - Addons: 'de/admin/game-server/addons.md'
+#          - Datei Templates : 'de/admin/game-server/datei-templates.md'
+          - Easy Anti Cheat: 'de/admin/game-server/easy-anti-cheat.md'
 #        - App/Game Master:
 #          - Master Server: 'de/admin/app-game-master/master.md'
 #          - Master Apps: 'de/admin/app-game-master/master-apps.md'
