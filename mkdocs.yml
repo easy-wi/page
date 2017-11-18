@@ -66,46 +66,81 @@ pages:
 #        - Image Server: 'en/installation-image-server.md'
   - Deutsch:
       - Allgemeines:
-#        - Anforderungen: 'de/allgemeines/anforderungen.md'
+        - Anforderungen: 'de/allgemeines/anforderungen.md'
         - Game Server: 'de/allgemeines/game-server.md'
       - Installation:
         - Web Interface: 'de/installation/web-interface.md'
         - Game Root Server: 'de/installation/game-root-server.md'
-        - Voice Root Server: 'de/installation/voice-root-server.md'
         - Image Server: 'de/installation/image-server.md'
+        - Voice Root Server: 'de/installation/voice-root-server.md'
       - Admin:
-#        - Home:
+        - Home:
+          - Dashboard: 'de/admin/home/dashboard.md'
+#          - IP Bans: 'de/admin/home/ip-bans.md'
+#          - Logs: 'de/admin/home/logs.md'
+#          - Mail Logs: 'de/admin/home/mail-logs.md'
+#          - Impressum: 'de/admin/home/impressum.md'
+#          - System Check: 'de/admin/home/system-check.md'
         - Einstellungen:
           - Einstellungen: 'de/admin/einstellungen/einstellungen.md'
-          - E-Mail Einstellungen: 'de/admin/einstellungen/email.md'
-          - Impressum Einstellungen: 'de/admin/einstellungen/imprint.md'
-#          - Versionsüberprüfung: 'de/admin/einstellungen/versionsüberprüfung.md'
+          - E-Mail: 'de/admin/einstellungen/email.md'
+          - Impressum: 'de/admin/einstellungen/imprint.md'
+#          - Versionsüberprüfung: 'de/admin/einstellungen/versionsueberpruefung.md'
 #          - Custom Columns: 'de/admin/einstellungen/custom-columns.md'
 #          - Module: 'de/admin/einstellungen/module.md'
 #          - DB: 'de/admin/einstellungen/db.md'
-#        - Jobs/API:
-#        - Feeds:
-#        - CMS:
-#        - Webspace:
-#        - MySQL:
-#        - User:
-#        - Game Server:
-#          - Templates: 'de/admin/game-server/templates.md'
-#        - App/Game Master:
-#          - Master Server: 'de/admin/app-game-master/master.md'
-#          - Master Apps: 'de/admin/app-game-master/master-apps.md'
-#          - Master Apps Update: 'de/admin/app-game-master/apps-update.md'
-#        - Voice Server:
+        - Jobs/API:
+          - Übersicht: 'de/admin/jobs-api/uebersicht.md'
+#          - API Einstellungen: 'de/admin/jobs-api/api-einstellungen.md'
+          - Externe Authentifizierung: 'de/admin/jobs-api/externe-authentifizierung.md'
+          - Benutzer Import: 'de/admin/jobs-api/benutzer-import.md'
+        - Feeds:
+          - News: 'de/admin/feeds/news.md'
+          - Übersicht: 'de/admin/feeds/uebersicht.md'
+#          - Einstellungen: 'de/admin/feeds/einstellungen.md'
+        - CMS:
+#          - News: 'de/admin/cms/news.md'
+#          - Kommentare: 'de/admin/cms/kommentare.md'
+#          - Seiten: 'de/admin/cms/seiten.md'
+#          - Downloads: 'de/admin/cms/downloads.md'
+          - Einstellungen: 'de/admin/cms/einstellungen.md'
+        - Webspace:
+          - Übersicht: 'de/admin/webspace/uebersicht.md'
+#          - Master: 'de/admin/webspace/master.md'
+        - MySQL:
+          - Übersicht: 'de/admin/mysql/uebersicht.md'
+#          - Master: 'de/admin/mysql/master.md'
+        - Benutzer:
+          - Übersicht: 'de/admin/benutzer/uebersicht.md'
+#          - Gruppen: 'de/admin/benutzer/gruppen.md'
+#          - Social Auth Provider: 'de/admin/benutzer/social-auth-provider.md'
+        - Game Server:
+          - Übersicht: 'de/admin/game-server/uebersicht.md'
+          - Templates: 'de/admin/game-server/templates.md'
+          - Addons: 'de/admin/game-server/addons.md'
+          - Datei Templates : 'de/admin/game-server/datei-templates.md'
+          - Easy Anti Cheat: 'de/admin/game-server/easy-anti-cheat.md'
+        - App/Game Master:
+          - Übersicht: 'de/admin/app-game-master/uebersicht.md'
+          - Master Apps: 'de/admin/app-game-master/master-apps.md'
+          - Master Apps Update: 'de/admin/app-game-master/apps-update.md'
+        - Voice Server:
+          - Übersicht: 'de/admin/voice-server/uebersicht.md'
+#          - Master: 'de/admin/voice-server/master.md'
+#          - TSDNS: 'de/admin/voice-server/tsdns-uebersicht.md'
+#          - TSDNS Master: 'de/admin/voice-server/tsdns-master.md'
+#          - Statistiken: 'de/admin/voice-server/statistiken.md'
         - Test/Lend Server:
-          - Übersicht: 'de/admin/leih-server/overview.md'
+          - Übersicht: 'de/admin/leih-server/uebersicht.md'
           - Einstellungen: 'de/admin/leih-server/einstelltungen.md'
-#        - Support:
-#    - User:
-#      - Game Server:
-#        - Übersicht: 'de/user/game-server/.md'
-#        - Addons: 'de/user/game-server/.md'
-#        - Fast Download: 'de/user/game-server/.md'
-#        - Umzugsservice: 'de/user/game-server/.md'
-#        - Datei Templates: 'de/user/game-server/.md'
+        - Support:
+          - Übersicht: 'de/admin/support/uebersicht.md'
+#          - Einstellungen: 'de/admin/support/support-kategorien.md'
+      - User:
+        - Game Server:
+          - Übersicht: 'de/user/game-server/uebersicht.md'
+          - Fast Download: 'de/user/game-server/fast-download.md'
+          - Umzugsservice: 'de/user/game-server/umzugsservice.md'
+          - Datei Templates: 'de/user/game-server/datei-templates.md'
 #    - API:
   - License: license.md
