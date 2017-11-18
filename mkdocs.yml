@@ -98,7 +98,7 @@ pages:
         - App/Game Master:
           - Übersicht: 'de/admin/app-game-master/uebersicht.md'
           - Master Apps: 'de/admin/app-game-master/master-apps.md'
-#          - Master Apps Update: 'de/admin/app-game-master/apps-update.md'
+          - Master Apps Update: 'de/admin/app-game-master/apps-update.md'
 #        - Voice Server:
         - Test/Lend Server:
           - Übersicht: 'de/admin/leih-server/uebersicht.md'
