@@ -107,8 +107,7 @@ pages:
       - User:
         - Game Server:
           - Übersicht: 'de/user/game-server/uebersicht.md'
-#        - Addons: 'de/user/game-server/.md'
-#        - Fast Download: 'de/user/game-server/.md'
+          - Fast Download: 'de/user/game-server/fast-download.md'
 #        - Umzugsservice: 'de/user/game-server/.md'
 #        - Datei Templates: 'de/user/game-server/.md'
 #    - API:
