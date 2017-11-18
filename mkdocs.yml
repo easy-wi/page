@@ -69,7 +69,7 @@ pages:
       - Installation:
         - Web Interface: 'de/installation-web-interface.md'
         - Game Root Server: 'de/installation-game-root-server.md'
-#        - Voice Root Server: 'de/installation-voice-root-server.md'
+        - Voice Root Server: 'de/installation-voice-root-server.md'
         - Image Server: 'de/installation-image-server.md'
 #      - Admin:
 #        - Home:
