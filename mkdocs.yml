@@ -66,13 +66,13 @@ pages:
 #        - Image Server: 'en/installation-image-server.md'
   - Deutsch:
       - Allgemeines:
-#        - Anforderungen: 'de/allgemeines/anforderungen.md'
+        - Anforderungen: 'de/allgemeines/anforderungen.md'
         - Game Server: 'de/allgemeines/game-server.md'
       - Installation:
         - Web Interface: 'de/installation/web-interface.md'
         - Game Root Server: 'de/installation/game-root-server.md'
-        - Voice Root Server: 'de/installation/voice-root-server.md'
         - Image Server: 'de/installation/image-server.md'
+        - Voice Root Server: 'de/installation/voice-root-server.md'
       - Admin:
 #        - Home:
         - Einstellungen:
@@ -96,8 +96,8 @@ pages:
 #          - Datei Templates : 'de/admin/game-server/datei-templates.md'
           - Easy Anti Cheat: 'de/admin/game-server/easy-anti-cheat.md'
         - App/Game Master:
-          - Master Server: 'de/admin/app-game-master/uebersicht.md'
-#          - Master Apps: 'de/admin/app-game-master/master-apps.md'
+          - Übersicht: 'de/admin/app-game-master/uebersicht.md'
+          - Master Apps: 'de/admin/app-game-master/master-apps.md'
 #          - Master Apps Update: 'de/admin/app-game-master/apps-update.md'
 #        - Voice Server:
         - Test/Lend Server:
