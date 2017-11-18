@@ -89,8 +89,8 @@ pages:
 #        - Webspace:
 #        - MySQL:
 #        - User:
-#        - Game Server:
-#          - Templates: 'de/admin/game-server/templates.md'
+        - Game Server:
+          - Templates: 'de/admin/game-server/templates.md'
 #        - App/Game Master:
 #          - Master Server: 'de/admin/app-game-master/master.md'
 #          - Master Apps: 'de/admin/app-game-master/master-apps.md'
