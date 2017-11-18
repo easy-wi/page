@@ -8,8 +8,8 @@ site_url: 'https://easy-wi.com'
 dev_addr: '0.0.0.0:8080'
 
 # Repository
-repo_name: 'easy-wi/developer'
-repo_url: 'https://github.com/easy-wi/developer'
+repo_name: 'easy-wi/page'
+repo_url: 'https://github.com/easy-wi/page'
 
 # Copyright
 copyright: 'Copyright &copy; 2017 Ulrich Block'
@@ -71,7 +71,7 @@ pages:
         - Game Root Server: 'de/installation-game-root-server.md'
         - Voice Root Server: 'de/installation-voice-root-server.md'
         - Image Server: 'de/installation-image-server.md'
-#      - Admin:
+      - Admin:
 #        - Home:
 #        - Settings:
 #        - Jobs/API:
@@ -87,7 +87,9 @@ pages:
 #          - Master Apps: 'de/admin-app-game-master-apps.md'
 #          - Master Apps Update: 'de/admin-app-game-master-apps-update.md'
 #        - Voice Server:
-#        - Test/Lend Server:
+        - Test/Lend Server:
+          - Übersicht: 'de/admin-lend-server-overview.md'
+          - Einstellungen: 'de/admin-lend-server-einstelltungen.md'
 #        - Support:
       - Game Server:
         - Allgemeines: 'de/game-server-allgemeines.md'
