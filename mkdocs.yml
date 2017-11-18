@@ -90,6 +90,7 @@ pages:
 #        - MySQL:
 #        - User:
         - Game Server:
+          - Übersicht: 'de/admin/game-server/uebersicht.md'
           - Templates: 'de/admin/game-server/templates.md'
           - Addons: 'de/admin/game-server/addons.md'
 #          - Datei Templates : 'de/admin/game-server/datei-templates.md'
