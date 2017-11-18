@@ -75,7 +75,7 @@ pages:
 #        - Home:
         - Einstellungen:
           - Einstellungen: 'de/admin-einstellungen.md'
-#          - E-Mail Einstellungen: 'de/admin-email-einstellungen.md'
+          - E-Mail Einstellungen: 'de/admin-email-einstellungen.md'
 #        - Jobs/API:
 #        - Feeds:
 #        - CMS:
