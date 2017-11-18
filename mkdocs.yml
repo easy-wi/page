@@ -96,12 +96,12 @@ pages:
 #          - Datei Templates : 'de/admin/game-server/datei-templates.md'
           - Easy Anti Cheat: 'de/admin/game-server/easy-anti-cheat.md'
         - App/Game Master:
-          - Master Server: 'de/admin/app-game-master/master.md'
+          - Master Server: 'de/admin/app-game-master/uebersicht.md'
 #          - Master Apps: 'de/admin/app-game-master/master-apps.md'
 #          - Master Apps Update: 'de/admin/app-game-master/apps-update.md'
 #        - Voice Server:
         - Test/Lend Server:
-          - Übersicht: 'de/admin/leih-server/overview.md'
+          - Übersicht: 'de/admin/leih-server/uebersicht.md'
           - Einstellungen: 'de/admin/leih-server/einstelltungen.md'
 #        - Support:
 #    - User:
