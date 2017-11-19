@@ -65,6 +65,7 @@ pages:
   - Deutsch:
     - FAQ:
       - Anforderungen: 'de/faq/anforderungen.md'
+      - Funktionen: 'de/faq/funktionen.md'
       - Game Server: 'de/faq/game-server.md'
     - Installation:
       - Web Interface: 'de/installation/web-interface.md'
