@@ -40,7 +40,7 @@ XML;
 
 ### Antwort
 
-```php
+```xml
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE users>
 <users>
@@ -62,14 +62,14 @@ XML;
 $data = 'pwd='.urlencode($pwd).'&amp;user='.$user.'&amp;xml='.urlencode(base64_encode($postxml)).'&amp;type='.$type;
 $useragent=$_SERVER['HTTP_HOST'];
 $fp = @fsockopen($host, 80, $errno, $errstr, 30);
-$buffer=&quot;&quot;;
+$buffer="";
 if ($fp) {
-  $send = &quot;POST &quot;.$path.&quot; HTTP/1.1\r\n&quot;;
-  $send .= &quot;Host: &quot;.$host.&quot;\r\n&quot;;
-  $send .=&quot;User-Agent: $useragent\r\n&quot;;
-  $send .= &quot;Content-Type: application/x-www-form-urlencoded; charset=utf-8\r\n&quot;;
-  $send .= &quot;Content-Length: &quot;.strlen($data).&quot;\r\n&quot;;
-  $send .= &quot;Connection: Close\r\n\r\n&quot;;
+  $send = "POST ".$path." HTTP/1.1\r\n";
+  $send .= "Host: ".$host."\r\n";
+  $send .="User-Agent: $useragent\r\n";
+  $send .= "Content-Type: application/x-www-form-urlencoded; charset=utf-8\r\n";
+  $send .= "Content-Length: ".strlen($data)."\r\n";
+  $send .= "Connection: Close\r\n\r\n";
   $send .= $data;
   fwrite($fp, $send); 
   while (!feof($fp)) {
@@ -77,6 +77,6 @@ if ($fp) {
   }
   fclose($fp);
 }
-list($header,$response)=explode(&quot;\r\n\r\n&quot;,$buffer);
-list($xml)=(preg_split(&quot;/([\w]{1,}[\r\n]|[\w]{1,}[\r\n][\r\n]|[\r\n][\w]{1,})/&quot;,$response,-1,PREG_SPLIT_NO_EMPTY));
+list($header,$response)=explode("\r\n\r\n",$buffer);
+list($xml)=(preg_split("/([\w]{1,}[\r\n]|[\w]{1,}[\r\n][\r\n]|[\r\n][\w]{1,})/",$response,-1,PREG_SPLIT_NO_EMPTY));
 ```

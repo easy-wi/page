@@ -142,4 +142,11 @@ pages:
 #          - Datei Templates: 'de/user/game-server/datei-templates.md'
     - API:
       - Allgemeines: 'de/api/allgemeines.md'
+      - Benutzer: 'de/api/benutzer.md'
+      - Game Server: 'de/api/game-server.md'
+      - Voice Server: 'de/api/voice-server.md'
+      - MySQL: 'de/api/mysql.md'
+      - Verleih Server: 'de/api/verleih-server.md'
+      - Protectioncheck: 'de/api/protectioncheck.md'
+      - Webspace: 'de/api/webspace.md'
   - License: license.md
