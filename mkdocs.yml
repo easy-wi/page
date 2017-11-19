@@ -16,6 +16,7 @@ copyright: 'Copyright &copy; 2017 Ulrich Block'
 
 # Configuration
 theme:
+  custom_dir: theme/
   favicon: 'assets/img/favicon.ico'
   logo: 'img/logo.png'
   feature:
@@ -28,9 +29,6 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-
-# Location of the custom files
-theme_dir: 'theme'
 
 # Customization
 extra:
