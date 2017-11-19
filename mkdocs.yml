@@ -56,12 +56,12 @@ markdown_extensions:
 pages:
   - Easy-Wi: index.md
 #  - English:
-#      - Requirements: 'en/functions.md'
-#      - Installation:
-#        - Web Interface: 'en/installation-web-interface.md'
-#        - Game Root Server: 'en/installation-game-root-server.md'
-#        - Voice Root Server: 'en/installation-voice-root-server.md'
-#        - Image Server: 'en/installation-image-server.md'
+#    - Requirements: 'en/functions.md'
+#    - Installation:
+#      - Web Interface: 'en/installation/web-interface.md'
+#      - Game Root Server: 'en/installation/game-root-server.md'
+#      - Voice Root Server: 'en/installation/voice-root-server.md'
+#      - Image Server: 'en/installation/image-server.md'
   - Deutsch:
     - FAQ:
       - Anforderungen: 'de/faq/anforderungen.md'
@@ -71,14 +71,16 @@ pages:
       - Game Root Server: 'de/installation/game-root-server.md'
       - Image Server: 'de/installation/image-server.md'
       - Voice Root Server: 'de/installation/voice-root-server.md'
+#      - Web Space: 'de/installation/web-space.md'
+#      - MySQL Server: 'de/installation/mysql.md'
     - Admin:
-#        - Home:
-#          - Dashboard: 'de/admin/home/dashboard.md'
-#          - IP Bans: 'de/admin/home/ip-bans.md'
-#          - Logs: 'de/admin/home/logs.md'
-#          - Mail Logs: 'de/admin/home/mail-logs.md'
-#          - Impressum: 'de/admin/home/impressum.md'
-#          - System Check: 'de/admin/home/system-check.md'
+#      - Home:
+#        - Dashboard: 'de/admin/home/dashboard.md'
+#        - IP Bans: 'de/admin/home/ip-bans.md'
+#        - Logs: 'de/admin/home/logs.md'
+#        - Mail Logs: 'de/admin/home/mail-logs.md'
+#        - Impressum: 'de/admin/home/impressum.md'
+#        - System Check: 'de/admin/home/system-check.md'
       - Einstellungen:
         - Einstellungen: 'de/admin/einstellungen/einstellungen.md'
         - E-Mail: 'de/admin/einstellungen/email.md'
@@ -105,13 +107,13 @@ pages:
 #        - Webspace:
 #          - Übersicht: 'de/admin/webspace/uebersicht.md'
 #          - Master: 'de/admin/webspace/master.md'
-#        - MySQL:
-#          - Übersicht: 'de/admin/mysql/uebersicht.md'
-#          - Master: 'de/admin/mysql/master.md'
-#        - Benutzer:
-#          - Übersicht: 'de/admin/benutzer/uebersicht.md'
-#          - Gruppen: 'de/admin/benutzer/gruppen.md'
-#          - Social Auth Provider: 'de/admin/benutzer/social-auth-provider.md'
+      - MySQL:
+        - Übersicht: 'de/admin/mysql/uebersicht.md'
+        - Master: 'de/admin/mysql/master.md'
+#      - Benutzer:
+#        - Übersicht: 'de/admin/benutzer/uebersicht.md'
+#        - Gruppen: 'de/admin/benutzer/gruppen.md'
+#        - Social Auth Provider: 'de/admin/benutzer/social-auth-provider.md'
       - Game Server:
 #          - Übersicht: 'de/admin/game-server/uebersicht.md'
         - Templates: 'de/admin/game-server/templates.md'
