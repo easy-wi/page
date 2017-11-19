@@ -62,6 +62,7 @@ pages:
 #      - Game Root Server: 'en/installation/game-root-server.md'
 #      - Voice Root Server: 'en/installation/voice-root-server.md'
 #      - Image Server: 'en/installation/image-server.md'
+  - Downloads: downloads.md
   - Deutsch:
     - FAQ:
       - Anforderungen: 'de/faq/anforderungen.md'
