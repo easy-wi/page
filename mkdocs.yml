@@ -168,3 +168,5 @@ pages:
       - Protectioncheck: 'de/api/protectioncheck.md'
       - Webspace: 'de/api/webspace.md'
   - License: license.md
+  - Impressum/Imprint: impressum.md
+  - Datenschutzerklärung: 'datenschutzerklaerung.md'
