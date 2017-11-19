@@ -65,8 +65,8 @@ pages:
 #        - Voice Root Server: 'en/installation-voice-root-server.md'
 #        - Image Server: 'en/installation-image-server.md'
   - Deutsch:
-      - Anforderungen: 'de/allgemeines/anforderungen.md'
       - Allgemeines:
+        - Anforderungen: 'de/allgemeines/anforderungen.md'
         - Game Server: 'de/allgemeines/game-server.md'
       - Installation:
         - Web Interface: 'de/installation/web-interface.md'
