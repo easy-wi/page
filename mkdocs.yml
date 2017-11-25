@@ -18,7 +18,7 @@ copyright: 'Copyright &copy; 2017 Ulrich Block'
 theme:
   custom_dir: theme/
   favicon: 'assets/img/favicon.ico'
-  logo: 'img/logo.png'
+  logo: 'assets/img/logo.png'
   feature:
     tabs: false
   name: 'material'
@@ -55,13 +55,14 @@ markdown_extensions:
 # Page tree
 pages:
   - Easy-Wi: index.md
+  - Downloads: downloads.md
+  - Gallery: gallery.md
 #  - English:
 #    - Installation:
 #      - Web Interface: 'en/installation/web-interface.md'
 #      - Game Root Server: 'en/installation/game-root-server.md'
 #      - Voice Root Server: 'en/installation/voice-root-server.md'
 #      - Image Server: 'en/installation/image-server.md'
-  - Downloads: downloads.md
   - Deutsch:
     - News:
       - Easy-Wi Update 6.0.0: 'de/news/2017-05-14/easy-wi-update-6-0-0.md'

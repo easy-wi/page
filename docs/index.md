@@ -1,5 +1,7 @@
 # Easy-Wi
 
+[![Dashboard](assets/img/gallery/dashboard.png)](assets/img/gallery/dashboard.png)
+
 ## Service administration
 
 Being a hoster requires a webinterface that eases your daily work. Also clans and sponsoring projects do not want to give up the comfort a webinterface can bring them.
