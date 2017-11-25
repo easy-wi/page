@@ -1,3 +1,5 @@
+# API EInstellungen
+
 ## Allgemeines
 
 Als Admin und Reseller ist man in der Lage, die API individuell zu konfigurieren und Zugangsberechtigungen einzustellen. Die Berechtigungskontrolle erfolgt an Hand von der anfragenden IP, so wie Username und Passwort. Nur wenn alle drei Werte korrekt gesendet werden, kann die API genutzt werden.

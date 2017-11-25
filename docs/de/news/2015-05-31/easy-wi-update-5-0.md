@@ -1,3 +1,5 @@
+# Easy-Wi Update 5.0
+
 ## Wichtig
 
 Durch den Verzicht auf die control.sh und das optionale Verwenden von Quotas muss die /etc/sudoers wie folgt erweitert werden. Dabei sind die Quotas bezogenen Einträge optional:

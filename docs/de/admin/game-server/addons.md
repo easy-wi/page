@@ -1,3 +1,5 @@
+# Addons
+
 ## Allgemeines
 
 Easy-wi arbeitet bei den Addons wie bei den Game Servern mit den mit den so genannten Symlinks. Das heißt, dass ein Großteil der Dateien nur verlinkt ist und bei dem User nur als Verknüpfung existiert. Die Addon Installationen bestehen demnach aus allen Ordnern, den Symlinks und den Dateien, die der User bearbeitet können soll. Dateien, die man bearbeiten kann, sind z.B. .cfg, .ini, .txt und dergleichen. Wie bei den Game Servern, reicht es in den meisten Fällen auch bei den Addons, die Masterinstallation zu updaten, damit alle Game Server die aktuelle Version nutzen können.

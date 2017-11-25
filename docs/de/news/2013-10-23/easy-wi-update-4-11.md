@@ -1,3 +1,5 @@
+# Easy-Wi Update 4.11
+
 ## Anmerkung
 
 Leider haben sich in der 4.10 einige Fehler eingeschlichen. Dazu hat sie deutlich aufgezeigt, das viele Admins noch alte PHP Versionen nutzen und Easy-WI inkompatibel mit diesen geworden ist.

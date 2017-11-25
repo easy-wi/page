@@ -1,3 +1,5 @@
+# Benutzer Import
+
 ## Allgemeines
 
 Easy-Wi ist in der Lage, User und deren Updates aus anderen Systemen zu importieren. Zusammen mit der [Externen Authentifizierung](/de/admin/jobs-api/externe-authentifizierung/) kann man so die Barrieren für den Nutzer reduzieren.

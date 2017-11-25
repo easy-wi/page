@@ -1,3 +1,5 @@
+# Templates
+
 ## Allgemeines
 
 Bevor ein Game Server angelegt, bzw. die Masterinstallation auf dem Rootserver angelegt werden kann, müssen die Eigenschaften der Serversoftware definiert werden.

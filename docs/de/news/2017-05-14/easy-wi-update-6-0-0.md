@@ -1,3 +1,5 @@
+# Easy-Wi Update 6.0.0
+
 ## Hinweis
 
 Nach dem Update ist auf jedem Root Server mit Game Servern das Migration Skript auszuführen:

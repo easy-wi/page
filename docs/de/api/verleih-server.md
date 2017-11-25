@@ -1,3 +1,5 @@
+# Verleih Server
+
 ## Allgemeines
 
 Wenn man den Verleih über eine andere Seite, als das Easy-Wi Formular abwickeln möchte, kann man die XML Api nutzen.

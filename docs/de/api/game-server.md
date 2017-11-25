@@ -1,3 +1,5 @@
+# Game Server
+
 ## Allgemeines
 
 Der Postparameter **type** muss **gserver** sein.

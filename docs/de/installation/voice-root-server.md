@@ -1,3 +1,5 @@
+# Voice Root Server
+
 ## Installer Download
 
 Nachdem man die easy-wi_install.sh gedownloaded hat:

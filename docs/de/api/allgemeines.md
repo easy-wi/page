@@ -1,4 +1,4 @@
-## Allgemeines
+# Allgemeines
 
 Nachdem man einen User mit Passwort angelegt und die IP(s) seines Webservers in den [API Einstellungen](/de/admin/jobs-api/api-einstellungen/) freigegeben hat, kann man die API bereits benutzen.
 

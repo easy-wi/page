@@ -1,3 +1,5 @@
+# Benutzer
+
 ## Allgemeines
 
 Der Postparameter **type** muss **user** sein.

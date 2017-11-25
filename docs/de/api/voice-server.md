@@ -1,6 +1,8 @@
+# Voice Server
+
 ## Allgemeines
 
-Der Postparameter <b>type</b> muss <b>voice</b> sein.
+Der Postparameter **type** muss **voice** sein.
 
 ## Befehle
 

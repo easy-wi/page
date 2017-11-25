@@ -1,3 +1,5 @@
+# Easy-Wi Update 5.30
+
 ## Hinweis
 
 Dieses Update enthält zwei wichtige Security Fixes. Ein zeitnahes Updaten ist zu empfehlen.

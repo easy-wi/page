@@ -1,3 +1,5 @@
+# Fast Download
+
 ## Einleitung
 
 Unter Fast Download hat man die Möglichkeit, die Spieldateien mit einem Fast Download Server abzugleichen. Unterstützt das Spiel eine Kompression für diese Inhalte, so werden die Dateien vor dem Abgleich komprimiert.

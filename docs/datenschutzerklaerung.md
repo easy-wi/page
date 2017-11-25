@@ -1,3 +1,5 @@
+# Datenschutzerklärung
+
 ## Anonyme Nutzung
 
 Die Nutzung dieser Webseite ist grundsätzlich ohne die Angabe von personenbezogener Daten möglich.

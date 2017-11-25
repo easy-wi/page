@@ -1,3 +1,5 @@
+# Einstellungen
+
 ## Einleitung
 
 Jeder Benutzer des Typs "Reseller" kann hier eigene Einstellungen vornehmen. Dabei wird einem Reselleraccount die Daten bezüglich Impressum und Hotline Nummer angezeigt, die vom Admin eingestellt werden.
@@ -80,7 +82,7 @@ Ist dies nicht der Fall wird der User und der Admin darüber informiert und gewa
 
 #### Slots manipuliert
 
-#### Von diesem Server werden Images und Game Server gezogen, wenn sie auf im Masterordner des Gameroots noch nicht vorhanden sind.
+#### Von diesem Server werden Images und Game Server gezogen, wenn sie auf im Masterordner des Gameroots noch nicht vorhanden sind
 
 Hat man mehr als einen Server, bietet es sich an, einen Imageserver zu benutzen, um die Addons und Erweiterungen für Game Server zentral verwalten zu können.
 

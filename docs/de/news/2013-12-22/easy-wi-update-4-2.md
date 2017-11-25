@@ -1,3 +1,5 @@
+# Easy-Wi Update 4.2
+
 ## Neuerungen und Änderungen
 
 ### Generell

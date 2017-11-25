@@ -1,3 +1,5 @@
+# Externe Authentizierung
+
 ## Allgemeines
 
 Betreibt man Easy-Wi in einer Software Cloud, kann man den Login für die User vereinheitlichen. Er muss sich dann nicht mehr X Passwörter für alle einzelnen Softwareprogramme merken.

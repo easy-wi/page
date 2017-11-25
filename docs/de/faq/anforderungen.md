@@ -1,3 +1,5 @@
+# Anforderungen
+
 ## Webinterface
 
 Easy-Wi kann auf so ziemlich allen Web Servern installiert werden, die PHP unterstützen und eine MySQL bzw. kompatible Datenbank zur Verfügung stellen. Da Platform unabhängig, könnte das Webinterface auch auf einem Webspace installiert werden, der auf Windows läuft.

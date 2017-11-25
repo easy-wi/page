@@ -1,3 +1,5 @@
+# Protection Check
+
 ## Allgemeines
 
 Wenn man eine Abfrage, ob ein Game Server im protection Mode läuft, in seine Webseite einbinden möchte, ist die empfohlene Methode ein REST Call.

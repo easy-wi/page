@@ -1,4 +1,7 @@
+# Easy-Wi Update 4.0
+
 ## Ankündigung
+
 Easy-WI ist mit der Version 4.0 Open Source. Lizenz ist die GNU GPL v3. Die bestehenden Dateien können jederzeit durch quelloffene ersetzt werden. Die GNU GPL v3 lizenzierte Version hat den Funktionsumfang der früheren unbegrenzten gewerblichen Version.
 
 Die bearbeiteten Entwickler Tickets können in unserem Github Repository eingesehen werden.
@@ -24,6 +27,7 @@ Downloade das Komplettpaket in unserem Download Bereich
 ## Änderungen
 
 ### Generell
+
 - Geändert: famfamfam Flag Icons verwendet.
 - Geändert: Entfernen Buttons sind rot.
 - Geändert: Bootstrap Template ist nun default

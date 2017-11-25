@@ -1,3 +1,5 @@
+# Funktionen
+
 ## Allgemeines
 
 Easy-Wi ist ein umfangreiches Webinterface und CMS. Egal ob Game Server, Voice Server, TSDNS Server, Webspace, oder MYSQL Datenbanken, alles kann mit wenigen Mausklicks verwaltet werden.

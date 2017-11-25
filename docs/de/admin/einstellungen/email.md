@@ -1,3 +1,5 @@
+# Email Einstellungen
+
 ## Einleitung
 
 In den E-Mail Einstellungen kann man definieren, wie und ob Mails verschickt werden sollen. Ebenfalls sind sämtliche Templates frei definierbar.

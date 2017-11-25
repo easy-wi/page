@@ -1,3 +1,5 @@
+# Web Interface
+
 ## Einleitung
 
 Easy-WI besitzt einen Installer, mittels dessen man einen blanken Root, oder V-Server von null auf einrichten kann. Wer bereits über einen Webspace mit MySQL bzw. MariaDB verfügt kann den ersten Teil überspringen und gleich zu [Web Installer](#web-installer) gehen.

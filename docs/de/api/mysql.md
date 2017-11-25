@@ -1,3 +1,5 @@
+# MySQL
+
 ## Allgemeines
 
 Der Postparameter *type* muss *mysql* sein.
