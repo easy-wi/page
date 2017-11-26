@@ -32,5 +32,5 @@ Some of the functions:
 
 ## User REST sync
 
-PHP Script which provides a RESTfull Web Service at another CMS or WI. Easy-WI can synchronise userdata into the WI with the help of this service.
+A PHP Script which provides a RESTfull Web Service at another CMS for WI. Easy-WI can synchronise userdata into the WI with the help of this service.
 A collection of example scripts can be found at [https://github.com/easy-wi/external](https://github.com/easy-wi/external).

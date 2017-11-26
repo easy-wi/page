@@ -54,9 +54,9 @@ markdown_extensions:
 # Page tree
 pages:
   - Easy-Wi: index.md
-  - Downloads: downloads.md
   - Gallery: gallery.md
   - English:
+    - Downloads: en/downloads.md
     - News:
       - Easy-Wi Update 6.0.0: 'en/news/2017-05-14/easy-wi-update-6-0-0.md'
       - Easy-Wi Update 5.30: 'en/news/2016-05-08/easy-wi-update-5-30.md'
@@ -72,12 +72,99 @@ pages:
       - Easy-Wi Update 4.11: 'en/news/2013-10-23/easy-wi-update-4-11.md'
       - Easy-Wi Update 4.10: 'en/news/2013-10-20/easy-wi-update-4-10.md'
       - Easy-Wi Update 4.0: 'en/news/2013-08-31/easy-wi-update-4-0.md'
+
+#    - FAQ:
+#      - Requirements: 'en/faq/anforderungen.md'
+#      - Functions: 'en/faq/functions.md'
+#      - Game Server: 'en/faq/game-server.md'
 #    - Installation:
 #      - Web Interface: 'en/installation/web-interface.md'
 #      - Game Root Server: 'en/installation/game-root-server.md'
-#      - Voice Root Server: 'en/installation/voice-root-server.md'
 #      - Image Server: 'en/installation/image-server.md'
+#      - Voice Root Server: 'en/installation/voice-root-server.md'
+#      - Web Space: 'en/installation/web-space.md'
+#      - MySQL Server: 'en/installation/mysql.md'
+#    - Admin:
+#      - Home:
+#        - Dashboard: 'en/admin/home/dashboard.md'
+#        - IP Bans: 'en/admin/home/ip-bans.md'
+#        - Logs: 'en/admin/home/logs.md'
+#        - Mail Logs: 'en/admin/home/mail-logs.md'
+#        - Imprint: 'en/admin/home/imprint.md'
+#        - System Check: 'en/admin/home/system-check.md'
+#      - Settings:
+#        - Settings: 'en/admin/settings/settings.md'
+#        - E-Mail: 'en/admin/settings/email.md'
+#        - Imprint: 'en/admin/settings/imprint.md'
+#          - Version Check: 'en/admin/settings/version-check.md'
+#          - Custom Columns: 'en/admin/settings/custom-columns.md'
+#          - Modules: 'en/admin/settings/modules.md'
+#          - DB: 'en/admin/settings/db.md'
+#      - Jobs/API:
+#        - Overview: 'en/admin/jobs-api/overview.md'
+#        - API Settings: 'en/admin/jobs-api/api-settings.md'
+#        - External Authentication: 'en/admin/jobs-api/external-authentication.md'
+#        - User Import: 'en/admin/jobs-api/user-import.md'
+#        - Feeds:
+#          - News: 'en/admin/feeds/news.md'
+#          - Overview: 'en/admin/feeds/overview.md'
+#          - Settings: 'en/admin/feeds/settings.md'
+#        - CMS:
+#          - News: 'en/admin/cms/news.md'
+#          - Comments: 'en/admin/cms/comments.md'
+#          - Pages: 'en/admin/cms/pages.md'
+#          - Downloads: 'en/admin/cms/downloads.md'
+#          - Settings: 'en/admin/cms/settings.md'
+#        - Webspace:
+#          - Overview: 'en/admin/webspace/overview.md'
+#          - Master: 'en/admin/webspace/master.md'
+#      - MySQL:
+#        - Overview: 'en/admin/mysql/overview.md'
+#        - Master: 'en/admin/mysql/master.md'
+#      - User:
+#        - Overview: 'en/admin/user/overview.md'
+#        - Groups: 'en/admin/user/groups.md'
+#        - Social Auth Provider: 'en/admin/user/social-auth-provider.md'
+#      - Game Server:
+#        - Overview: 'en/admin/game-server/overview.md'
+#        - Templates: 'en/admin/game-server/templates.md'
+#        - Addons: 'en/admin/game-server/addons.md'
+#        - File Templates : 'en/admin/game-server/file-templates.md'
+#        - Easy Anti Cheat: 'en/admin/game-server/easy-anti-cheat.md'
+#      - App/Game Master:
+#        - Overview: 'en/admin/app-game-master/overview.md'
+#        - Master Apps: 'en/admin/app-game-master/master-apps.md'
+#        - Master Apps Update: 'en/admin/app-game-master/apps-update.md'
+#      - Voice Server:
+#        - Overview: 'en/admin/voice-server/overview.md'
+#        - Master: 'en/admin/voice-server/master.md'
+#        - TSDNS: 'en/admin/voice-server/tsdns-overview.md'
+#        - TSDNS Master: 'en/admin/voice-server/tsdns-master.md'
+#        - Statistics: 'en/admin/voice-server/statistics.md'
+#      - Test/Lend Server:
+#        - Overview: 'en/admin/leih-server/overview.md'
+#        - Settings: 'en/admin/leih-server/settings.md'
+#      - Support:
+#        - Overview: 'en/admin/support/overview.md'
+#        - Settings: 'en/admin/support/support-categories.md'
+#    - User:
+#      - Game Server:
+#        - Overview: 'en/user/game-server/overview.md'
+#        - Fast Download: 'en/user/game-server/fast-download.md'
+#          - Move Service: 'en/user/game-server/move-service.md'
+#          - File Templates: 'en/user/game-server/file-templates.md'
+#    - API:
+#      - Miscellaneous: 'en/api/miscellaneous.md'
+#      - User: 'en/api/user.md'
+#      - Game Server: 'en/api/game-server.md'
+#      - Voice Server: 'en/api/voice-server.md'
+#      - MySQL: 'en/api/mysql.md'
+#      - Lend Server: 'en/api/lend-server.md'
+#      - Protectioncheck: 'en/api/protectioncheck.md'
+#      - Webspace: 'en/api/webspace.md'
+
   - Deutsch:
+    - Downloads: de/downloads.md
     - News:
       - Easy-Wi Update 6.0.0: 'de/news/2017-05-14/easy-wi-update-6-0-0.md'
       - Easy-Wi Update 5.30: 'de/news/2016-05-08/easy-wi-update-5-30.md'
