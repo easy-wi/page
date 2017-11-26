@@ -46,7 +46,6 @@ extra:
 
 # Extensions
 markdown_extensions:
-  - admonition
   - codehilite:
       guess_lang: false
   - toc:
@@ -57,7 +56,22 @@ pages:
   - Easy-Wi: index.md
   - Downloads: downloads.md
   - Gallery: gallery.md
-#  - English:
+  - English:
+    - News:
+      - Easy-Wi Update 6.0.0: 'en/news/2017-05-14/easy-wi-update-6-0-0.md'
+      - Easy-Wi Update 5.30: 'en/news/2016-05-08/easy-wi-update-5-30.md'
+      - Easy-Wi Update 5.22: 'en/news/2016-03-25/easy-wi-update-5-22.md'
+      - Installer Update 1.3: 'en/news/2016-02-27/installer-update-1-3.md'
+      - Easy-Wi Update 5.21: 'en/news/2016-02-27/easy-wi-update-5-21.md'
+      - Easy-Wi Update 5.2: 'en/news/2015-12-28/easy-wi-update-5-2.md'
+      - Easy-Wi Update 5.1: 'en/news/2015-06-27/easy-wi-update-5-1.md'
+      - Easy-Wi Update 5.0: 'en/news/2015-05-31/easy-wi-update-5-0.md'
+      - Easy-Wi Update 4.4: 'en/news/2014-05-10/easy-wi-update-4-4.md'
+      - Easy-Wi Update 4.3: 'en/news/2014-01-28/easy-wi-update-4-3.md'
+      - Easy-Wi Update 4.2: 'en/news/2013-12-22/easy-wi-update-4-2.md'
+      - Easy-Wi Update 4.11: 'en/news/2013-10-23/easy-wi-update-4-11.md'
+      - Easy-Wi Update 4.10: 'en/news/2013-10-20/easy-wi-update-4-10.md'
+      - Easy-Wi Update 4.0: 'en/news/2013-08-31/easy-wi-update-4-0.md'
 #    - Installation:
 #      - Web Interface: 'en/installation/web-interface.md'
 #      - Game Root Server: 'en/installation/game-root-server.md'
