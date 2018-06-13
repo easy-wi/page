@@ -12,7 +12,7 @@ repo_name: 'easy-wi/page'
 repo_url: 'https://github.com/easy-wi/page'
 
 # Copyright
-copyright: 'Copyright &copy; 2017 Ulrich Block'
+copyright: 'Copyright &copy; 2017-2018 Ulrich Block'
 
 # Configuration
 theme:
@@ -37,10 +37,6 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/easy-wi/'
-    - type: 'twitter'
-      link: 'https://twitter.com/EasyWI/'
-    - type: 'facebook'
-      link: 'https://www.facebook.com/easywi/'
     - type: 'question-circle'
       link: 'https://gitter.im/easy-wi/'
 
