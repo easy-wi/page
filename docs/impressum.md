@@ -2,19 +2,19 @@
 
 ## Angaben gemäß § 5 TMG
 
-Ulrich Block
+Alexander Dörwald
 
-Werderstraße 49
-76137 Karlsruhe
+Friesenstrasse 2
+04177 Leipzig
 
 ## Kontakt
 
-Telefon: 0049 151 11405720
+Telefon: 0049 178 3332022
 E-Mail: support@easy-wi.com
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
-Ulrich Block
+Ulrich Block, Alexander Dörwald
 
 Quelle: Impressumsgenerator, Rechtsanwalt für [Internetrecht](http://www.e-recht24.de) Sören Siebert
 
