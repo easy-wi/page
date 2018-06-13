@@ -4,12 +4,12 @@
 
 Alexander Dörwald
 
-Friesenstrasse 2
+Friesenstrasse 2<br>
 04177 Leipzig
 
 ## Kontakt
 
-Telefon: 0049 178 3332022
+Telefon: 0049 178 3332022<br>
 E-Mail: support@easy-wi.com
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
