@@ -1,7 +1,7 @@
 # Project information
 site_name: 'Easy-Wi Webinterface'
 site_description: 'A game and voice server and webspace webinterface'
-site_author: 'Ulrich Block'
+site_author: 'Alexander Dörwald'
 site_url: 'https://easy-wi.com'
 
 # Address for local developement
@@ -12,7 +12,7 @@ repo_name: 'easy-wi/page'
 repo_url: 'https://github.com/easy-wi/page'
 
 # Copyright
-copyright: 'Copyright &copy; 2017-2018 Ulrich Block'
+copyright: 'Copyright &copy; 2017-2018 Ulrich Block, Alexander Dörwald'
 
 # Configuration
 theme:
