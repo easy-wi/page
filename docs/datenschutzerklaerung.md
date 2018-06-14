@@ -1,12 +1,12 @@
 <h2>Datenschutzerklärung</h2><h3 id="dsg-general-intro"></h3><p>Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).<br>
 <br>
-</p><h3 id="dsg-general-controller">Verantwortliche(r)</h3><p><span class="tsmcontroller">Alexander Dörwald<br>
+</p><h3 id="dsg-general-controller">Verantwortlicher</h3><p><span class="tsmcontroller">Alexander Dörwald<br>
 Friesenstrasse 2<br>
 04177 Leipzig<br>
 Germany<br>
 <br>
 E-Mailadresse: support@easy-wi.com<br>
-Impressum: https://easy-wi.com/impressum/</span></p><h3 id="dsg-general-datatype">Arten der verarbeiteten Daten:</h3><p>-	Bestandsdaten (z.B., Namen, Adressen).<br>
+Link zum Impressum: https://easy-wi.com/impressum/</span></p><h3 id="dsg-general-datatype">Arten der verarbeiteten Daten:</h3><p>-	Bestandsdaten (z.B., Namen, Adressen).<br>
 -	Kontaktdaten (z.B., E-Mail, Telefonnummern).<br>
 -	Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br>
 -	Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).<br>
@@ -52,4 +52,10 @@ Nach gesetzlichen Vorgaben in Deutschland, erfolgt die Aufbewahrung insbesondere
 <br>
 Nach gesetzlichen Vorgaben in Österreich erfolgt die Aufbewahrung insbesondere für 7 J gemäß § 132 Abs. 1 BAO (Buchhaltungsunterlagen, Belege/Rechnungen, Konten, Belege, Geschäftspapiere, Aufstellung der Einnahmen und Ausgaben, etc.), für 22 Jahre im Zusammenhang mit Grundstücken und für 10 Jahre bei Unterlagen im Zusammenhang mit elektronisch erbrachten Leistungen, Telekommunikations-, Rundfunk- und Fernsehleistungen, die an Nichtunternehmer in EU-Mitgliedstaaten erbracht werden und für die der Mini-One-Stop-Shop (MOSS) in Anspruch genommen wird.</p><p></p><h3 id="dsg-contact">Kontaktaufnahme</h3><p></p><p><span class="ts-muster-content">Bei der Kontaktaufnahme mit uns (z.B. per Kontaktformular, E-Mail, Telefon oder via sozialer Medien) werden die Angaben des Nutzers zur Bearbeitung der Kontaktanfrage und deren Abwicklung gem. Art. 6 Abs. 1 lit. b. (im Rahmen vertraglicher-/vorvertraglicher Beziehungen),  Art. 6 Abs. 1 lit. f. (andere Anfragen) DSGVO verarbeitet.. Die Angaben der Nutzer können in einem Customer-Relationship-Management System ("CRM System") oder vergleichbarer Anfragenorganisation gespeichert werden.<br>
 <br>
-Wir löschen die Anfragen, sofern diese nicht mehr erforderlich sind. Wir überprüfen die Erforderlichkeit alle zwei Jahre; Ferner gelten die gesetzlichen Archivierungspflichten.</span></p><a href="https://datenschutz-generator.de" class="dsg1-5" rel="nofollow" target="_blank">Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke</a>
+Wir löschen die Anfragen, sofern diese nicht mehr erforderlich sind. Wir überprüfen die Erforderlichkeit alle zwei Jahre; Ferner gelten die gesetzlichen Archivierungspflichten.</span></p><p></p><h3 id="dsg-cdn-github">Content-Delivery-Network von GitHub</h3><p></p><p><span class="ts-muster-content">Wir setzen ein so genanntes "Content Delivery Network" (CDN), angeboten von GitHub, Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA, ein. GitHub ist unter dem Privacy-Shield-Abkommen zertifiziert und bietet hierdurch eine Garantie, das europäische Datenschutzrecht einzuhalten (<a target="_blank" href="https://www.privacyshield.gov/participant?id=a2zt000000001K2AAI&status=Active">https://www.privacyshield.gov/participant?id=a2zt000000001K2AAI&status=Active</a>).<br>
+<br>
+Ein CDN ist ein Dienst, mit dessen Hilfe Inhalte unseres Onlineangebotes, insbesondere große Mediendateien, wie Grafiken oder Skripte mit Hilfe regional verteilter und über das Internet verbundener Server, schneller ausgeliefert werden. Die Verarbeitung der Daten der Nutzer erfolgt alleine zu den vorgenannten Zwecken und der Aufrechterhaltung der Sicherheit und Funktionsfähigkeit des CDN.<br>
+<br>
+Die Nutzung erfolgt auf Grundlage unserer berechtigten Interessen, d.h. Interesse an einer sicheren und effizienten Bereitstellung, Analyse sowie Optimierung unseres Onlineangebotes gem. Art. 6 Abs. 1 lit. f. DSGVO. <br>
+<br>
+Weitere Informationen erhalten Sie in der Datenschutzerklärung von GitHub:&nbsp;<a target="_blank" href="https://help.github.com/categories/site-policy/">https://help.github.com/categories/site-policy/</a>.</span></p><a href="https://datenschutz-generator.de" class="dsg1-5" rel="nofollow" target="_blank">Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke</a>
