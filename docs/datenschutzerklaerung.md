@@ -6,7 +6,6 @@ Friesenstrasse 2<br>
 Germany<br>
 <br>
 E-Mailadresse: support@easy-wi.com<br>
-Telefon-Nr.: auf Anfrage via E-Mail<br>
 Impressum: https://easy-wi.com/impressum/</span></p><h3 id="dsg-general-datatype">Arten der verarbeiteten Daten:</h3><p>-	Bestandsdaten (z.B., Namen, Adressen).<br>
 -	Kontaktdaten (z.B., E-Mail, Telefonnummern).<br>
 -	Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br>
