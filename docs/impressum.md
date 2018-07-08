@@ -9,7 +9,7 @@ Friesenstrasse 2<br>
 
 ## Kontakt
 
-Telefon: 0049 178 3332022<br>
+Telefon: Telefon-Nr. auf Anfrage via E-Mail<br>
 E-Mail: support@easy-wi.com
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
