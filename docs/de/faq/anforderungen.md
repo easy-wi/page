@@ -4,12 +4,12 @@
 
 Easy-Wi kann auf so ziemlich allen Web Servern installiert werden, die PHP unterstützen und eine MySQL bzw. kompatible Datenbank zur Verfügung stellen. Da Platform unabhängig, könnte das Webinterface auch auf einem Webspace installiert werden, der auf Windows läuft.
 
-Die Software wird auf den aktuellen Stable Releases von Debian und Ubuntu getestet.
+Die Software wird auf den aktuellen Stable Releases von Debian, Ubuntu und CentOS getestet.
 
 ### PHP
 
 Es wird eine aktuelle Version von PHP benötigt. Benötigt wird 5.5 oder neuer, 7 inbegriffen.
-Auf Ubuntu und Debian werden folgende Erweiterung benötigt:
+Auf Ubuntu, Debian oder CentOS werden folgende Erweiterung benötigt:
 
 - php-common
 - php-curl
@@ -20,6 +20,10 @@ Auf Ubuntu und Debian werden folgende Erweiterung benötigt:
 - php-xml
 - php-mbstring
 - php-zip
+
+Zusätzlich wird auf CentOS 7 oder neuer folgende Erweiterungen benötigt:
+
+- libsodium-devel
 
 ### MySQL
 
