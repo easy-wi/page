@@ -10,10 +10,26 @@ Wenn man noch keinen Webspace auf dem Server konfiguriert hat, kann man die gef�
 
 ### Installer
 
-Nachdem man die easy-wi_install.sh gedownloaded hat:
+Zuerst prüft man die latest Release Version auf:
+
+`https://github.com/easy-wi/installer/releases`
+
+Nachdem man die latest Release Version hat, kann man sich dem Download widmen (Versionsnummer ersetzen mit der latest Release Nummer):
 
 ```sh
-wget https://raw.githubusercontent.com/easy-wi/installer/master/easy-wi_install.sh
+wget -O installer.tar.gz https://github.com/easy-wi/installer/archive/VERSIONSNUMMER.tar.gz
+```
+
+Ist der Download erfolgreich, so entpackt man den Installer mit:
+
+```sh
+tar zxf installer.tar.gz && mv ./installer-*/easy-wi_install.sh ./
+```
+
+Jetzt kann man unnötige Dateien/Ordner entfernen mit:
+
+```sh
+rm -r installer.tar.gz installer-*/
 ```
 
 ruft den Installer mit Root Rechten auf:
