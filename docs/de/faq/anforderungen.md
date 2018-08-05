@@ -35,7 +35,7 @@ Im optimalen Fall sollte der Webspace Cronjobs unterstützen. Dies ist nicht zwi
 
 ## Installations Script
 
-Das Installations Script, welches alle hier genannten Komponenten einrichten und installieren kann, unterstützt Debian 7 und neuer, sowie Ubuntu 12.04 und neuer.
+Das Installations Script, welches alle hier genannten Komponenten einrichten und installieren kann, unterstützt Debian 7 und neuer, Ubuntu 15.10 und neuer sowie CentOS 7 und neuer.
 
 Aus Gründen der Sicherheit wird empfohlen die neusten Stable bzw. LTS Versionen Debian 9 und Ubuntu 16.04 zu benutzen.
 
