@@ -2,8 +2,7 @@
 
 ## Angaben gemäß § 5 TMG
 
-Alexander Dörwald
-
+Alexander Dörwald<br>
 Friesenstrasse 2<br>
 04177 Leipzig
 
