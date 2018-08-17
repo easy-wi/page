@@ -9,7 +9,10 @@ Being a hoster requires a webinterface that eases your daily work. Also clans an
 ## Quick start
 
 ```sh
-wget https://raw.githubusercontent.com/easy-wi/installer/master/easy-wi_install.sh
+LATEST_VERSION=`wget -q --timeout=60 -O - https://api.github.com/repos/easy-wi/installer/releases/latest | grep -Po '(?<="tag_name": ")([0-9]\.[0-9]+)'`
+wget -O installer.tar.gz https://github.com/easy-wi/installer/archive/$LATEST_VERSION.tar.gz
+tar zxf installer.tar.gz && mv ./installer-*/easy-wi_install.sh ./
+rm -r installer.tar.gz installer-*/
 bash easy-wi_install.sh
 ```
 
