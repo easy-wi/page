@@ -5,9 +5,11 @@ Friesenstrasse 2<br>
 04177 Leipzig<br>
 Germany<br>
 <br>
-E-Mailadresse: support@easy-wi.com<br>
+E-Mailadresse: mailto:support@easy-wi.com<br>
 Telefon-Nr.: auf Anfrage via E-Mail<br>
-Impressum: https://easy-wi.com/impressum/</span></p><h3 id="dsg-general-datatype">Arten der verarbeiteten Daten:</h3><p>-	Bestandsdaten (z.B., Namen, Adressen).<br>
+Impressum: [Impressum](/impressum/)</span></p>
+<h3 id="dsg-general-datatype">Arten der verarbeiteten Daten:</h3>
+<p>-	Bestandsdaten (z.B., Namen, Adressen).<br>
 -	Kontaktdaten (z.B., E-Mail, Telefonnummern).<br>
 -	Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br>
 -	Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).<br>
