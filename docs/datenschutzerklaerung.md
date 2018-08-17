@@ -4,22 +4,23 @@ Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der V
 
 ## Verantwortliche(r)
 
-Alexander Dörwald
-Friesenstrasse 2
-04177 Leipzig
-Germany
+Alexander Dörwald<br>
+Friesenstrasse 2<br>
+04177 Leipzig<br>
+Germany<br>
 
-E-Mailadresse: mailto:support@easy-wi.com
-Telefon-Nr.: auf Anfrage via E-Mail
+E-Mailadresse: support@easy-wi.com<br>
+Telefon-Nr.: auf Anfrage via E-Mail<br>
 Impressum: [Impressum](/impressum/)
+
 
 ## Arten der verarbeiteten Daten:
 
--	Bestandsdaten (z.B., Namen, Adressen).
--	Kontaktdaten (z.B., E-Mail, Telefonnummern).
--	Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).
--	Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).
--	Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).
+-	Bestandsdaten (z.B., Namen, Adressen)
+-	Kontaktdaten (z.B., E-Mail, Telefonnummern)
+-	Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos)
+-	Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten)
+-	Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen)
 
 ## Kategorien betroffener Personen
 
@@ -27,9 +28,9 @@ Besucher und Nutzer des Onlineangebotes (Nachfolgend bezeichnen wir die betroffe
 
 ## Zweck der Verarbeitung
 
--	Zurverfügungstellung des Onlineangebotes, seiner Funktionen und  Inhalte.
--	Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.
--	Sicherheitsmaßnahmen.
+-	Zurverfügungstellung des Onlineangebotes, seiner Funktionen und  Inhalte
+-	Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern
+-	Sicherheitsmaßnahmen
 -	Reichweitenmessung/Marketing
 
 ## Verwendete Begrifflichkeiten
@@ -108,6 +109,7 @@ Nach gesetzlichen Vorgaben in Österreich erfolgt die Aufbewahrung insbesondere 
 
 Bei der Kontaktaufnahme mit uns (z.B. per Kontaktformular, E-Mail, Telefon oder via sozialer Medien) werden die Angaben des Nutzers zur Bearbeitung der Kontaktanfrage und deren Abwicklung gem. Art. 6 Abs. 1 lit. b. (im Rahmen vertraglicher-/vorvertraglicher Beziehungen),  Art. 6 Abs. 1 lit. f. (andere Anfragen) DSGVO verarbeitet.. Die Angaben der Nutzer können in einem Customer-Relationship-Management System ("CRM System") oder vergleichbarer Anfragenorganisation gespeichert werden.
 
-Wir löschen die Anfragen, sofern diese nicht mehr erforderlich sind. Wir überprüfen die Erforderlichkeit alle zwei Jahre; Ferner gelten die gesetzlichen Archivierungspflichten.
+Wir löschen die Anfragen, sofern diese nicht mehr erforderlich sind.
+Wir überprüfen die Erforderlichkeit alle zwei Jahre; Ferner gelten die gesetzlichen Archivierungspflichten.
 
 <a href="https://datenschutz-generator.de" class="dsg1-5" rel="nofollow" target="_blank">Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke</a>
