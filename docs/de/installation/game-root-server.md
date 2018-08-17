@@ -2,11 +2,27 @@
 
 ## Installer Download
 
-Nachdem man die easy-wi_install.sh gedownloaded hat:
+Den aktuellen Installer bekommt man mit:
+
 ```sh
-wget https://raw.githubusercontent.com/easy-wi/installer/master/easy-wi_install.sh
+LATEST_VERSION=`wget -q --timeout=60 -O - https://api.github.com/repos/easy-wi/installer/releases/latest | grep -Po '(?<="tag_name": ")([0-9]\.[0-9]+)'`
+wget -O installer.tar.gz https://github.com/easy-wi/installer/archive/$LATEST_VERSION.tar.gz
 ```
-ruft den Installer mit Rootrechten auf:
+
+Ist der Download erfolgreich, so entpackt man den Installer mit:
+
+```sh
+tar zxf installer.tar.gz && mv ./installer-*/easy-wi_install.sh ./
+```
+
+Jetzt kann man unnötige Dateien und Ordner entfernen mit:
+
+```sh
+rm -r installer.tar.gz installer-*/
+```
+
+Ruft den Installer mit Rootrechten auf:
+
 ```sh
 bash easy-wi_install.sh
 ```
