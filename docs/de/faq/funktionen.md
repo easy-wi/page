@@ -13,7 +13,7 @@ Easy-Wi kann durch seine REST API in bestehende Shops, oder User Clouds integrie
 
 - **Eigene Installation:** Hoste Easy-WI selber. Erhalte Updates und Neuerungen sofort nach erscheinen.
 - **LAN fähig:** Verwalte Server auf deiner LAN.
-- **Mobile Ready:** Easy-WIs Standard Template ist responsive und passt sich der Device Breite an. Es fungiert als Web App
+- **Mobile Ready:** Easy-WIs Standard Template ist responsive und passt sich der Geräte Breite an. Es fungiert als Web App.
 - **Ohne Branding:** Es wird kein Code zwangsweise in die Templates eingebunden. Head, Body, Footer, in der Gestaltung sind sie komplett frei.
 - **Ticketsystem:** Mit dem Ticketsystem können sie die Probleme ihrer Kunden im Überblick.
 - **Datenbank:** Sichere und repariere deine Datenbank aus dem Admin Panel.
@@ -25,9 +25,9 @@ Easy-Wi kann durch seine REST API in bestehende Shops, oder User Clouds integrie
 ## Benutzerverwaltung
 
 - **Benutzerverwaltung:** Multiple Usertypen. Es können Admin-, Reseller- und Useraccount verwaltet werden.
-- **Userswitch:** Für die einfache Problemlesung ihrer Kunden, können sowohl Reseller, als auch Admins die Identität der angelegten Accounts annehmen.
+- **Userswitch:** Für die einfache Problemlösung ihrer Kunden, können sowohl Reseller, als auch Admins die Identität der angelegten Accounts annehmen.
 - **Usergruppen:** Um die Verwaltung zu vereinfachen können für sämtliche Usertypen Rechtegruppen angelegt werden.
-- **Logging:** Um Mißverständnisse zu vermeiden, werden sämtliche Useraktionen gelogt.
+- **Logging:** Um Mißverständnisse zu vermeiden, werden sämtliche Useraktionen geloggt.
 
 ## CMS
 
@@ -37,24 +37,23 @@ Easy-Wi kann durch seine REST API in bestehende Shops, oder User Clouds integrie
 - **Eigene Seiten:** Für statische Inhalte können eigene Seiten angelegt werden.
 - **Einfacher Editor:** Sämtliche News und Seiten können mittels einfach zu bedienenden Editor verwaltet werden.
 - **Mehrsprachig:** Wie der Interface Teil können auch im CMS beliebig viele Sprachen verwaltet werden.
-- **Einfacher Editor:** Sämtliche News und Seiten können mittels einfach zu bedienenden Editor verwaltet werden.
-- **Kommentarfunktion:** User können die News News kommentieren. Diverse Anti-Spam Maßnahmen schützen die Formulare.
+- **Kommentarfunktion:** User können die News kommentieren. Diverse Anti-Spam Maßnahmen schützen die Formulare.
 - **SEO:** Rewrite Links, Sitemap, Keyword- und Kategorieverwaltung helfen ihre Seite für Suchmachinen zu optimieren.
 - **Suchfunktion:** Mittels einer Suche können User die Inhalte durchstöbern.
 
 ## Game Server
 
 - **Template Editor:** Warte nicht auf Easy-Wi ein neues Spiel einzubinden. Spiele Templates können bequem verwaltet werden.
-- **Automatisierte Updates:** Egal ob Steam Spiel, oder Punkbuster, Updates werden erkannt und automatisiert eingespielt
+- **Automatisierte Updates:** Egal ob Steam Spiel, oder Punkbuster, Updates werden erkannt und automatisiert eingespielt.
 - **Multigame:** Installiere und benutze beliebig viele Spiele je Port.
-- **Template Wahl:** Wähle je Spiel zwischen drei Templates installierten templates.
+- **Template Wahl:** Wähle je Spiel zwischen drei installierten Templates.
 - **Spiele Mods:** Verwalte Modifikationen zu Spieleservern.
 - **Addon- und Mappaketeverwaltung:** Definiere Abhängigkeiten von Addons. Verwalte Mappakete.
 - **Config Editor:** Nutze den vollständigen, oder einfachen Mode, die Configs zu bearbeiten. Schütze Werte, die nicht überschrieben werden dürfen.
-- **Backup- und Restartplaner:** Plane nach Tag und Stunde Backup und Restarts.
+- **Backup- und Restartplaner:** Plane nach Tag und Stunde Backups sowie Restarts.
 - **Umzugsservice:** FTP Daten vom alten Server eingeben und Easy-WI erledigt den Rest.
-- **Fast Download:** Syncronisiere deine custom Maps, Models und Texturen mit nur einem Mausklick mit deinem Fast Download Server.
-- **EAC:** Das kostenpflichtige Easy Anti Cheat wird bei jedem Gameserverstart automatisch konfiguriert.
+- **Fast Download:** Synchronisiere deine custom Maps, Models und Texturen mit nur einem Mausklick mit deinem Fast Download Server.
+- **EAC:** Das kostenpflichtige EAC (Easy Anti Cheat) wird bei jedem Gameserverstart automatisch konfiguriert.
 - **Protection Mode:** Für gewerbliche Anbieter ein Muss. Der protection Mode stellt sicher, dass nur autorisierte Plugins auf dem Warserver laufen.
 - **Monitoring:** Sämtliche Prozesse werden überwacht. Hackt jemand zu viele Slots in den Server, oder hält sich nicht an die Passwortpflicht, wird automatisiert reagiert.
 
@@ -72,9 +71,9 @@ Easy-Wi kann durch seine REST API in bestehende Shops, oder User Clouds integrie
 
 Das Webspace Modul unterstützt sämtliche Linux basierenden Webserver, die auf Name Based Virtual Hosts setzen.
 
-- **Jegliche Webserver:** Sämtliche Web Server wie Nginx, Apache2, Apache oder Lighttpd, welche Name Based Virtual Hosts unterstützen, können benutzt werden
+- **Jegliche Webserver:** Sämtliche Web Server wie Nginx, Apache, Apache2 oder Lighttpd, welche Name Based Virtual Hosts unterstützen, können benutzt werden.
 - **Flexible Templates:** 100% definierbare Templates für die Vhosts und PHP Konfigurationen erlauben unendlich viele Anpassungsmöglichkeiten.
-- **Quota Support:** Definiere, wie viel Festplatten Speicher, der Account benutzen darf.
+- **Quota Support:** Definiere, wie viel Festplattenspeicher, der Account benutzen darf.
 - **Domains:** Jeder User kann seine eigenen (Sub) Domains verwalten.
 
 ## MySQL
