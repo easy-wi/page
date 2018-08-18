@@ -101,7 +101,7 @@ Die letzte Aktion von "easy-wi.install.sh" ist es, die Aufforderung zu machen, d
 Teamspeak 3 setup is done. TS3 Query password is kkWcDbzD5GCB. Please enter the data at the webpanel at "Voiceserver > Master > Add".
 ```
 
-Dies sollte man befolgen und die Daten eintragen. Wer einen Key an Stelle von einem Passwort Login gewählt hat, muss diesen noch auf den Webspace kopieren.
+Dies sollte man befolgen und die Daten eintragen. Wer einen Key an Stelle von einem Passwort Login gewählt hat, muss diesen noch auf den Webspace kopieren (```/home/easywi_web/htdocs/keys/```).
 
 ## Root Absichern
 
