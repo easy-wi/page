@@ -61,4 +61,4 @@ Voreingestellte Konfigurationen gibt es für Apache2 und Nginx. Durch Anpassen d
 
 ## MySQL Root/V-Server
 
-Unterstützt werden MySQL und kompatible Server wie MariaDB. Das Betriebsystem, auf dem der Server installiert worden ist, ist nicht von Bedeutung, da die Verwaltung mittels SQL erfolgt.
+Unterstützt werden MySQL und kompatible Server wie MariaDB. Das Betriebssystem, auf dem der Server installiert worden ist, ist nicht von Bedeutung, da die Verwaltung mittels SQL erfolgt.
