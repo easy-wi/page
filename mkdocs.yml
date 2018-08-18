@@ -75,11 +75,11 @@ nav:
       - Requirements: 'en/faq/conditions.md'
       - Functions: 'en/faq/functions.md'
       - Game Server: 'en/faq/game-server.md'
-#    - Installation:
+    - Installation:
 #      - Web Interface: 'en/installation/web-interface.md'
 #      - Game Root Server: 'en/installation/game-root-server.md'
 #      - Image Server: 'en/installation/image-server.md'
-#      - Voice Root Server: 'en/installation/voice-root-server.md'
+      - Voice Root Server: 'en/installation/voice-root-server.md'
 #      - Web Space: 'en/installation/web-space.md'
 #      - MySQL Server: 'en/installation/mysql.md'
 #    - Admin:
