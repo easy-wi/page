@@ -11,7 +11,7 @@ Der Einsatz von Symlinks hat viele Vorteile:
 - Ein Server ist binnen Sekunden angelegt. Das Gleiche gilt für den Start des Protection Modus.
 - Updates müssen nur einmal je Root Server zentral eingespielt werden.
 - Gibt es Probleme mit Serversoftware kann man diese zentral lösen und muss nicht jede Kundeninstallation bearbeiten.
-- Eine blanke Serverinstallation ist ca. 1Megabyte groß. Deshalb hat man eine erhebliche Platzersparnis.
+- Eine blanke Serverinstallation ist ca. 1 Megabyte groß. Deshalb hat man eine erhebliche Platzersparnis.
 - Der User sieht nur die Dateien, die ihn auch etwas angehen. Auf diese Weise kann er weniger Schaden durch technische Unkenntnis anrichten.
 
 ### Game Server Masterdateien
@@ -55,7 +55,7 @@ Am Beispiel von einer Installation mit den Spielen Counter-Strike: Source und Ca
 
 ### .steam/sdk32/steamclient.so: cannot open shared object file: No such file or director
 
-Wer Steam baiserende Server betreibt, könnte über folgenden Fehler im screenlog.0 bzw. der Konsole stolpern:
+Wer Steam basierende Server betreibt, könnte über folgenden Fehler im screenlog.0 bzw. der Konsole stolpern:
 
 ```sh
 Auto-restarting the server on crash
