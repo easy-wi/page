@@ -4,11 +4,12 @@
 
 Alexander Dörwald<br>
 Friesenstrasse 2<br>
-04177 Leipzig
+04177 Leipzig<br>
+Germany
 
 ## Kontakt
 
-Telefon: Telefon-Nr. auf Anfrage via E-Mail<br>
+Telefon: auf Anfrage via E-Mail<br>
 E-Mail: support@easy-wi.com
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
