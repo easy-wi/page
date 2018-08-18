@@ -7,7 +7,7 @@ The following instructions describe how to set up a Rsync server, where you can 
 
 To provide your own image server, we need:
 
-- An Rsync Server in Deamon Mode
+- An Rsync Server in Daemon Mode
 - A writing User
 - A reading User in the same Group
 
@@ -25,7 +25,7 @@ Then we create the reading user:
 useradd -g imageserver -s /bin/false -d /home/imageserver imageuser
 ```
 
-## Rsync Deamon
+## Rsync Daemon
 
 ### Installation
 
