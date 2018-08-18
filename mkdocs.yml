@@ -73,7 +73,7 @@ nav:
 
     - FAQ:
       - Requirements: 'en/faq/conditions.md'
-#      - Functions: 'en/faq/functions.md'
+      - Functions: 'en/faq/functions.md'
       - Game Server: 'en/faq/game-server.md'
 #    - Installation:
 #      - Web Interface: 'en/installation/web-interface.md'
