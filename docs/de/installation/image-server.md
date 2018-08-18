@@ -7,7 +7,7 @@ Die folgende Anleitung beschreibt, wie man einen Rsync Server einrichtet, bei de
 
 Um einen eigenen Imageserver bereitzustellen, brauchen wir:
 
-- Einen Rsync Server im Deamon Modus
+- Einen Rsync Server im Daemon Modus
 - Einen schreibenden User
 - Einen lesenden User in der gleichen Gruppe
 
@@ -25,7 +25,7 @@ Dann legen wir den lesenden User an:
 useradd -g imageserver -s /bin/false -d /home/imageserver imageuser
 ```
 
-## Rsync Deamon
+## Rsync Daemon
 
 ### Installation
 
