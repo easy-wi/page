@@ -155,7 +155,7 @@ Die letzte Aktion von "easy-wi.install.sh" ist es, die Aufforderung zu machen, d
 Gameserver Root setup is done. Please enter the above data at the webpanel at "App/Game Master > Overview > Add".
 ```
 
-Dies sollte man befolgen und die Daten eintragen. Wer einen Key an Stelle von einem Passwort Login gewählt hat, muss diesen noch auf den Webspace kopieren.
+Dies sollte man befolgen und die Daten eintragen. Wer einen Key an Stelle von einem Passwort Login gewählt hat, muss diesen noch auf den Webspace kopieren (```/home/easywi_web/htdocs/keys/```).
 
 ## Root Absichern
 
