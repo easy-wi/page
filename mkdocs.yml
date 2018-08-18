@@ -71,10 +71,10 @@ nav:
       - Easy-Wi Update 4.10: 'en/news/2013-10-20/easy-wi-update-4-10.md'
       - Easy-Wi Update 4.0: 'en/news/2013-08-31/easy-wi-update-4-0.md'
 
-#    - FAQ:
-#      - Requirements: 'en/faq/anforderungen.md'
+    - FAQ:
+      - Requirements: 'en/faq/conditions.md'
 #      - Functions: 'en/faq/functions.md'
-#      - Game Server: 'en/faq/game-server.md'
+      - Game Server: 'en/faq/game-server.md'
 #    - Installation:
 #      - Web Interface: 'en/installation/web-interface.md'
 #      - Game Root Server: 'en/installation/game-root-server.md'
