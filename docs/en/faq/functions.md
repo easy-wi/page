@@ -4,7 +4,6 @@
 
 Easy-Wi is a comprehensive Web Interface and CMS. It does not matter if it is a Game Server, Voice Server, TSDNS Server, Webspace or MYSQL Databases, everything can be managed with just a few mouse clicks.
 
-Ein weiterer Schwerpunkt ist die Automatisierung. Formulare werden mit den optimalen Werten vorausgefüllt. Im Regelfall reicht es aus, immer auf "weiter" zu klicken. Des Weiteren werden Server automatisiert überwacht und ggf. gehandelt. Manuelle Neustarts, oder das Ermahnen von Kunden gehören mit Easy-Wi der Vergangeheit an.
 Another focus is automation. Forms are prefilled with the optimal values. As a rule, it is sufficient to always click on "continue". Furthermore, servers are automatically monitored and possibly traded. Manual reboots, or exhorting customers, are a thing of the past with Easy-Wi.
 
 The future lies in the cloud and linked heterogeneous system landscapes. For this reason, Easy-Wi offers a REST API and can use external APIs, such as the Steam API.
