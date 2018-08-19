@@ -93,7 +93,7 @@ nav:
       - Settings:
         - Settings: 'en/admin/settings/settings.md'
         - E-Mail: 'en/admin/settings/email.md'
-#        - Imprint: 'en/admin/settings/imprint.md'
+        - Imprint: 'en/admin/settings/imprint.md'
 #          - Version Check: 'en/admin/settings/version-check.md'
 #          - Custom Columns: 'en/admin/settings/custom-columns.md'
 #          - Modules: 'en/admin/settings/modules.md'
