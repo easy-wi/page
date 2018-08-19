@@ -82,7 +82,7 @@ nav:
       - Voice Root Server: 'en/installation/voice-root-server.md'
 #      - Web Space: 'en/installation/web-space.md'
 #      - MySQL Server: 'en/installation/mysql.md'
-#    - Admin:
+    - Admin:
 #      - Home:
 #        - Dashboard: 'en/admin/home/dashboard.md'
 #        - IP Bans: 'en/admin/home/ip-bans.md'
