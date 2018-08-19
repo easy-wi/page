@@ -90,8 +90,8 @@ nav:
 #        - Mail Logs: 'en/admin/home/mail-logs.md'
 #        - Imprint: 'en/admin/home/imprint.md'
 #        - System Check: 'en/admin/home/system-check.md'
-#      - Settings:
-#        - Settings: 'en/admin/settings/settings.md'
+      - Settings:
+        - Settings: 'en/admin/settings/settings.md'
 #        - E-Mail: 'en/admin/settings/email.md'
 #        - Imprint: 'en/admin/settings/imprint.md'
 #          - Version Check: 'en/admin/settings/version-check.md'
