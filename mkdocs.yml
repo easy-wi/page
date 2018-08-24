@@ -116,9 +116,9 @@ nav:
 #        - Webspace:
 #          - Overview: 'en/admin/webspace/overview.md'
 #          - Master: 'en/admin/webspace/master.md'
-#      - MySQL:
-#        - Overview: 'en/admin/mysql/overview.md'
-#        - Master: 'en/admin/mysql/master.md'
+      - MySQL:
+        - Overview: 'en/admin/mysql/overview.md'
+        - Master: 'en/admin/mysql/master.md'
 #      - User:
 #        - Overview: 'en/admin/user/overview.md'
 #        - Groups: 'en/admin/user/groups.md'
