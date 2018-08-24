@@ -57,7 +57,7 @@ Here an optional description for the overview can be maintained.
 
 Each database gets its own database user, who has the same name as the database. This user can be assigned maximum values ​​for using the database. 0 means unlimited.
 
-## Clear
+## Delete
 
 Removes the Master Server entry from the Easy-Wi database. In this case, all user databases are also removed from the Easy-Wi database. The databases and their data on the master have been preserved.
 
