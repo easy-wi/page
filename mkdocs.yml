@@ -98,11 +98,11 @@ nav:
 #          - Custom Columns: 'en/admin/settings/custom-columns.md'
 #          - Modules: 'en/admin/settings/modules.md'
 #          - DB: 'en/admin/settings/db.md'
-#      - Jobs/API:
+      - Jobs/API:
 #        - Overview: 'en/admin/jobs-api/overview.md'
-#        - API Settings: 'en/admin/jobs-api/api-settings.md'
-#        - External Authentication: 'en/admin/jobs-api/external-authentication.md'
-#        - User Import: 'en/admin/jobs-api/user-import.md'
+        - API Settings: 'en/admin/jobs-api/api-settings.md'
+        - External Authentication: 'en/admin/jobs-api/external-authentication.md'
+        - User Import: 'en/admin/jobs-api/user-import.md'
 #        - Feeds:
 #          - News: 'en/admin/feeds/news.md'
 #          - Overview: 'en/admin/feeds/overview.md'
