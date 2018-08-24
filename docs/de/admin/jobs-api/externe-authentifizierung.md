@@ -34,7 +34,7 @@ Die Domain, auf dem das externe Script läuft. Hier darf der Zusatz "http", oder
 
 ### Datei
 
-er Pfad und Name des Skriptes, das angefragt werden soll. Hier könnte man `ordner/api.php` eintragen.
+Der Pfad und Name des Skriptes, das angefragt werden soll. Hier könnte man `ordner/api.php` eintragen.
 
 ## Authentifizierungsdatei
 
