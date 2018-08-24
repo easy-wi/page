@@ -22,7 +22,7 @@ The current assignment to the currently selected MYSQL server is displayed here.
 
 ### Maximum Values
 
-The maximum values ​​that the user can use this database with. 0 means unlimited.
+The maximum values that the user can use this database with. 0 means unlimited.
 
 ### Activate
 
@@ -44,7 +44,7 @@ Yes, it means that the user can manage the entries under "Allowed IPs" himself. 
 
 You must specify each IP from which to access the database individually. For each allowed IP a separate row is to be used.
 
-## Clear
+## Delete
 
 If the database is deleted from the Easy-Wi table, the database and related entries on the MySQL server will be dropped.
 
