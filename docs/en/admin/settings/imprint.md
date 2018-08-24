@@ -1,4 +1,4 @@
-# Impressum
+# Imprint
 
 In the imprint settings you can select the languages for which you would like to maintain an imprint.
 
