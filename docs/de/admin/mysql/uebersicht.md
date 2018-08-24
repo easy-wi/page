@@ -37,7 +37,7 @@ Das Passwort des Datenbankbenutzers. Der Datenbankbenutzer trägt immer den selb
 
 ### Hosttabelle editierbar
 
-Ja, bedeuete, dass der User die Einträge unter "Erlaubte IPs" selber verwalten kann. Bei nein, darf es nur ein Admin
+Ja, bedeuete, dass der User die Einträge unter "Erlaubte IPs" selber verwalten kann. Bei nein, darf es nur ein Admin.
 
 ### Erlaubte IPs
 
