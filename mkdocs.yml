@@ -123,12 +123,12 @@ nav:
 #        - Overview: 'en/admin/user/overview.md'
 #        - Groups: 'en/admin/user/groups.md'
 #        - Social Auth Provider: 'en/admin/user/social-auth-provider.md'
-#      - Game Server:
+      - Game Server:
 #        - Overview: 'en/admin/game-server/overview.md'
-#        - Templates: 'en/admin/game-server/templates.md'
-#        - Addons: 'en/admin/game-server/addons.md'
-#        - File Templates : 'en/admin/game-server/file-templates.md'
-#        - Easy Anti Cheat: 'en/admin/game-server/easy-anti-cheat.md'
+        - Templates: 'en/admin/game-server/templates.md'
+        - Addons: 'en/admin/game-server/addons.md'
+        - File Templates : 'en/admin/game-server/file-templates.md'
+        - Easy Anti Cheat: 'en/admin/game-server/easy-anti-cheat.md'
 #      - App/Game Master:
 #        - Overview: 'en/admin/app-game-master/overview.md'
 #        - Master Apps: 'en/admin/app-game-master/master-apps.md'
