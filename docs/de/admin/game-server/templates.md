@@ -140,10 +140,10 @@ Wird ein Game Server mit einem eigenen Startbefehl angelegt, wird der unter "Sta
 - %port4% > Port 3 siehe %port2%
 - %port5% > Port 3 siehe %port2%
 - %opt1% > Optionaler Parameter 1
-- %opt2% > Optionaler Parameter 1
-- %opt3% > Optionaler Parameter 1
-- %opt4% > Optionaler Parameter 1
-- %opt5% > Optionaler Parameter 1
+- %opt2% > Optionaler Parameter 2
+- %opt3% > Optionaler Parameter 3
+- %opt4% > Optionaler Parameter 4
+- %opt5% > Optionaler Parameter 5
 - %tic% > "Tickrate"
 - %minram% > Bei Spielen wie Minecraft muss man unter Umständen den RAM limitieren, um Performance Probleme zu vermeiden. Dies ist der minimale Wert.
 - %maxram% > Bei Spielen wie Minecraft muss man unter Umständen den RAM limitieren, um Performance Probleme zu vermeiden. Dies ist der Maximale Wert.
