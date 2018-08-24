@@ -41,7 +41,7 @@ The user who uses global rights to manage the databases, user and host tables en
 
 The password for the user with global rights.
 
-### Maximum databases
+### Maximum Databases
 
 To prevent overloading, you can set a maximum value beyond which new databases can not be added. If more than one server is used, this value determines the percentage utilization. When creating a database automatically, the server with the lowest percentage load is taken. When manually created, this server is selected before.
 
@@ -53,7 +53,7 @@ If you want to provide the admin interface phpMyAdmin, then you can deposit the 
 
 Here an optional description for the overview can be maintained.
 
-### Default values ​​for new Databases
+### Default Values for new Databases
 
 Each database gets its own database user, who has the same name as the database. This user can be assigned maximum values ​​for using the database. 0 means unlimited.
 
