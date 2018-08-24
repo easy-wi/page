@@ -139,9 +139,9 @@ nav:
 #        - TSDNS: 'en/admin/voice-server/tsdns-overview.md'
 #        - TSDNS Master: 'en/admin/voice-server/tsdns-master.md'
 #        - Statistics: 'en/admin/voice-server/statistics.md'
-#      - Test/Lend Server:
-#        - Overview: 'en/admin/leih-server/overview.md'
-#        - Settings: 'en/admin/leih-server/settings.md'
+      - Test/Lend Server:
+        - Overview: 'en/admin/leih-server/overview.md'
+        - Settings: 'en/admin/leih-server/settings.md'
 #      - Support:
 #        - Overview: 'en/admin/support/overview.md'
 #        - Settings: 'en/admin/support/support-categories.md'
