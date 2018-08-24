@@ -252,7 +252,7 @@ There may be performance issues on the TS3 side of the status check when a TS3 i
 This lets the script N nanoseconds sleep between the individual querys:
 
 ```sh
-*/5 * * * * phpusername cd /var/www/deinedomain.tld/httpd/ && timeout 290 php ./statuscheck.php coolDown:2 >/dev/null 2>&1
+*/5 * * * * phpusername cd /var/www/yourdomain.tld/httpd/ && timeout 290 php ./statuscheck.php coolDown:2 >/dev/null 2>&1
 ```
 
 ##### Restarts
