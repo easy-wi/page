@@ -129,10 +129,10 @@ nav:
         - Addons: 'en/admin/game-server/addons.md'
 #        - File Templates : 'en/admin/game-server/file-templates.md'
         - Easy Anti Cheat: 'en/admin/game-server/easy-anti-cheat.md'
-#      - App/Game Master:
-#        - Overview: 'en/admin/app-game-master/overview.md'
-#        - Master Apps: 'en/admin/app-game-master/master-apps.md'
-#        - Master Apps Update: 'en/admin/app-game-master/apps-update.md'
+      - App/Game Master:
+        - Overview: 'en/admin/app-game-master/overview.md'
+        - Master Apps: 'en/admin/app-game-master/master-apps.md'
+        - Master Apps Update: 'en/admin/app-game-master/apps-update.md'
 #      - Voice Server:
 #        - Overview: 'en/admin/voice-server/overview.md'
 #        - Master: 'en/admin/voice-server/master.md'
