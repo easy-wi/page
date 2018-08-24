@@ -66,12 +66,12 @@ Select Yes if your processor and operating system support [Hyperthreading](https
 ### Cores
 
 Enter here the number of cores your processor has.
-_Note: _ If you selected "Yes" in Hyperthreading, your cores will automatically be doubled. Enter here only the number of _Real_ cores.
+_Note:_ If you selected "Yes" in Hyperthreading, your cores will automatically be doubled. Enter here only the number of _Real_ cores.
 
 ### Ram (MB)
 
 Amount of RAM in MB.
-_Note: _ Your operating system, as well as other services on the server will also need a little RAM. Therefore, it is advisable not everything to write here RAM but deduct ~ 1 GB.
+_Note:_ Your operating system, as well as other services on the server will also need a little RAM. Therefore, it is advisable not everything to write here RAM but deduct ~ 1 GB.
 
 ### Description
 
