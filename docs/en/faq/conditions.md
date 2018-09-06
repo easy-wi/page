@@ -57,7 +57,7 @@ The user under which the TS3 server was installed must be able to use the Bash s
 
 Most Linux distributions are supported.
 
-Default configurations are available for Apache2 and Nginx. By customizing the templates, other HTTP servers like the [Hiawatha](https://www.hiawatha-webserver.org/) can be used. The only requirement is that the HTTP server supports Virtual VHosts.
+Default configurations are available for Apache2 and Lighttpd. By customizing the templates, other HTTP servers like the [Hiawatha](https://www.hiawatha-webserver.org/) can be used. The only requirement is that the HTTP server supports Virtual VHosts.
 
 ## MySQL Root/V-Server
 
