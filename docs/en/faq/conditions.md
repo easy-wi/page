@@ -35,7 +35,7 @@ In the best case, the webspace should support cronjobs. This is not mandatory, a
 
 ## Installations Script
 
-The installation script, which can install and install all the components mentioned here, supports Debian 7 and newer, Ubuntu 15.10 and newer as well as CentOS 7 and newer.
+The installation script, which can install and install all the components mentioned here, supports Debian 8 and newer, Ubuntu 16.04 and newer as well as CentOS 7 and newer.
 
 For safety reasons it is recommended to use the latest stable or LTS versions Debian 9, Ubuntu 18.04 or CentOS 7.
 
