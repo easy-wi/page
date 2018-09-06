@@ -57,7 +57,7 @@ Der Benutzer, unter dem der TS3 Server installiert wurde, muss die Bash Shell be
 
 Unterstützt werden die meisten Linux Distributionen.
 
-Voreingestellte Konfigurationen gibt es für Apache2 und Nginx. Durch Anpassen der Templates können auch andere HTTP Server wie der [Hiawatha](https://www.hiawatha-webserver.org/) benutzt werden. Einzige Voraussetzung dafür ist, dass der HTTP Server Virtuelle VHosts unterstützt.
+Voreingestellte Konfigurationen gibt es für Apache2 und Lighttpd. Durch Anpassen der Templates können auch andere HTTP Server wie der [Hiawatha](https://www.hiawatha-webserver.org/) benutzt werden. Einzige Voraussetzung dafür ist, dass der HTTP Server Virtuelle VHosts unterstützt.
 
 ## MySQL Root/V-Server
 
