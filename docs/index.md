@@ -19,8 +19,8 @@ bash easy-wi_install.sh
 
 ### Unstable Installer (Debian 9>, Ubuntu 17.10> and CentOS 7>)
 ```sh
-wget -q --timeout=60 -O - https://raw.githubusercontent.com/easy-wi/installer/master/easy-wi_install.sh
-bash easy-wi_install.sh
+wget https://raw.githubusercontent.com/easy-wi/installer/master/easy-wi_install.sh
+bash ./easy-wi_install.sh
 ```
 
 ## What to expect
