@@ -14,7 +14,7 @@ E-Mail: support@easy-wi.com
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
-Ulrich Block, Alexander Dörwald
+Alexander Dörwald
 
 Quelle: Impressumsgenerator, Rechtsanwalt für [Internetrecht](http://www.e-recht24.de) Sören Siebert
 
