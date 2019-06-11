@@ -35,4 +35,4 @@ bash ./easy-wi_install.sh
 
 ## Support Channel
 Discord: [Easy-WI Discord Channel](https://discord.gg/quJvvfF)
-Github: [Easy-WI Github Channel](https://gitter.im/easy-wi/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+Gitter: [Easy-WI Gitter Channel](https://gitter.im/easy-wi/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
