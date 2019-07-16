@@ -8,7 +8,7 @@ Being a hoster requires a webinterface that eases your daily work. Also clans an
 
 ## Quick start
 
-### Stable Installer (Debian <8, Ubuntu <16.10 only)
+### Stable Installer (up to Debian 8, Ubuntu 16.10 and CentOS 6)
 ```sh
 LATEST_VERSION=`wget -q --timeout=60 -O - https://api.github.com/repos/easy-wi/installer/releases/latest | grep -Po '(?<="tag_name": ")([0-9]\.[0-9]+)'`
 wget -O installer.tar.gz https://github.com/easy-wi/installer/archive/$LATEST_VERSION.tar.gz
@@ -17,7 +17,7 @@ rm -r installer.tar.gz installer-*/
 bash easy-wi_install.sh
 ```
 
-### Unstable Installer (Debian 9>, Ubuntu 17.10> and CentOS 7>)
+### Unstable Installer (Debian 9 and later, Ubuntu 17.10 and later and CentOS 7 and later)
 ```sh
 wget https://raw.githubusercontent.com/easy-wi/installer/master/easy-wi_install.sh
 bash ./easy-wi_install.sh
