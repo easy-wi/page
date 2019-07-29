@@ -3,6 +3,7 @@
 ## Introduction
 
 In the e-mail settings you can define how and if e-mails should be sent. Likewise, all templates are freely definable.
+A e-mail server is required and is not included.
 
 ## E-Mail Settings
 
