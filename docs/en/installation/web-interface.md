@@ -10,30 +10,7 @@ If you have not yet configured a Webspace on the server, you can use the guided 
 
 ### Installer
 
-The current installer is available with:
-
-```sh
-LATEST_VERSION=`wget -q --timeout=60 -O - https://api.github.com/repos/easy-wi/installer/releases/latest | grep -Po '(?<="tag_name": ")([0-9]\.[0-9]+)'`
-wget -O installer.tar.gz https://github.com/easy-wi/installer/archive/$LATEST_VERSION.tar.gz
-```
-
-If the download is successful, unpack the installer with:
-
-```sh
-tar zxf installer.tar.gz && mv ./installer-*/easy-wi_install.sh ./
-```
-
-Now you can remove unnecessary files and folders with:
-
-```sh
-rm -r installer.tar.gz installer-*/
-```
-
-Calls the installer with root right:
-
-```sh
-bash easy-wi_install.sh
-```
+The installer is available at [Github - Easy-WI Installer](https://github.com/easy-wi/installer)
 
 ## System Update
 
