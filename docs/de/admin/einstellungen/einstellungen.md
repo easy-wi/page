@@ -86,7 +86,7 @@ Ist dies nicht der Fall wird der User und der Admin darüber informiert und gewa
 
 Hat man mehr als einen Server, bietet es sich an, einen Imageserver zu benutzen, um die Addons und Erweiterungen für Game Server zentral verwalten zu können.
 
-Wie man einen solchen einrichtet, kann man unter [Image Server Installtion](/de/installation-image-server/) nachlesen.
+Wie man einen solchen einrichtet, kann man unter [Image Server Installation](/de/installation-image-server/) nachlesen.
 
 Man kann einen Server bzw. User ausschließlich für diese Aufgabe einrichten, oder einen bereits bestehende Installation eines Masterusers angeben.
 
