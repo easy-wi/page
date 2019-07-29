@@ -2,14 +2,14 @@
 
 ## Easy-WI Webinterface
 
-The Easy-Wi Webinterface kann über GitHub heruntergeladen werden:
+Das Easy-Wi Webinterface kann über GitHub heruntergeladen werden:
 
 - [Die Stabile Version](https://github.com/easy-wi/developer/releases/latest)
 - [Aktuelle Developer Version](https://github.com/easy-wi/developer/tags)
 
 ## Easy-Wi Bash Installer
 
-Der Bash Installer [easy-wi_install.sh](https://github.com/easy-wi/installer/releases/latest) bietet eine geführte Installation für Debian, Ubuntu und CentOS Systeme.
+Der Bash Installer [easy-wi_install.sh](https://github.com/easy-wi/installer) bietet eine geführte Installation für Debian, Ubuntu und CentOS Systeme.
 Andere apt/yum basierende Distributionen könnten funktionieren, wurden mit dem Installer aber nicht getestet.
 
 Unterstützte Installationen sind `Standalone Panel at a blank system`, `Web Master`, `MySQL Master`, `Game Master` und `Voice Master`.
