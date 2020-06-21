@@ -3,8 +3,8 @@
 ## Angaben gemäß § 5 TMG
 
 Alexander Dörwald<br>
-Friesenstrasse 2<br>
-04177 Leipzig<br>
+Geschwister-Scholl-Strasse 15<br>
+04205 Leipzig<br>
 Germany
 
 ## Kontakt
