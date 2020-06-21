@@ -37,3 +37,11 @@ bash ./easy-wi_install.sh
 Discord: [Easy-WI Discord Channel](https://discord.gg/quJvvfF)
 
 Github: [Easy-WI Github Channel](https://github.com/easy-wi/developer/issues)
+
+## Programmer and Supporter wanted
+We are looking for volunteer/free programmers who enjoy supporting us.
+
+What we offer:
+* a super helpful community
+* a nice team
+* Fun at work and that without an appointment print
