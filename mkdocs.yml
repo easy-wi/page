@@ -12,7 +12,7 @@ repo_name: 'easy-wi/page'
 repo_url: 'https://github.com/easy-wi/page'
 
 # Copyright
-copyright: 'Copyright &copy; 2017-2019 Alexander Dörwald'
+copyright: 'Copyright &copy; 2017-2020 Alexander Dörwald'
 
 # Configuration
 theme:
