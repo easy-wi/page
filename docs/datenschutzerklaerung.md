@@ -5,8 +5,8 @@ Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der V
 ## Verantwortliche(r)
 
 Alexander Dörwald<br>
-Friesenstrasse 2<br>
-04177 Leipzig<br>
+Geschwister-Scholl-Strasse 15<br>
+04205 Leipzig<br>
 Germany<br>
 
 E-Mailadresse: support@easy-wi.com<br>
