@@ -1,36 +1,21 @@
-# PATH extension for mkdocs will not work properly without sudo
-sudo: required
 language: python
 
-# Output python and pip versions for local debugging
-before_install:
-  - python -V
-  - pip -V
+python: 3.6
 
-# Install mkdocs and material before building
+branches: master
+
 install:
-  - pip install mkdocs
-  - pip install mkdocs-material
+    - pip install mkdocs mkdocs-material
 
-# Output mkdocs and mkdocs-material versions for local debugging
-after_install:
-  -  pip show mkdocs
-  -  pip show mkdocs-material
+script: true
 
-# Build and Deploy
-script:
-  - mkdocs build --verbose --clean --strict
-#  - mkdocs build --verbose --clean
+before_deploy:
+    - mkdocs build --verbose --clean #--strict
 
 deploy:
- provider: pages
- skip_cleanup: true
- github_token: $GITHUB_TOKEN
- local_dir: site
- on:
-   branch: master
-
-# Only build on master; changes to gh-pages are irrelevant
-branches:
-  only:
-    - master
+    provider: pages
+    skip_cleanup: true
+    github_token: $github_token
+    local_dir: site
+    on:
+        branch: master
