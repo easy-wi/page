@@ -8,9 +8,11 @@ install:
   - pip install mkdocs mkdocs-material
 
 script: true
+  - mkdocs build --verbose --clean --strict
 
 before_deploy:
-  - mkdocs build --verbose --clean --strict
+  - python -V
+  - pip -V
 
 # Output mkdocs and mkdocs-material versions for local debugging
 after_deploy:
