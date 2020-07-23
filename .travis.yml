@@ -19,7 +19,8 @@ after_install:
 
 # Build and Deploy
 script:
-  - mkdocs build --verbose --clean --strict
+#  - mkdocs build --verbose --clean --strict
+  - mkdocs build --verbose --clean
 
 deploy:
  provider: pages
