@@ -38,6 +38,8 @@ Discord: [Easy-WI Discord Channel](https://discord.gg/quJvvfF)
 
 Github: [Easy-WI Github Channel](https://github.com/easy-wi/developer/issues)
 
+Twitter: [Twitter](https://twitter.com/EasyWi)
+
 ## Programmer and Supporter wanted
 We are looking for volunteer/free programmers who enjoy supporting us.
 
