@@ -39,6 +39,8 @@ extra:
       link: 'https://github.com/easy-wi/'
     - type: 'question-circle'
       link: 'https://gitter.im/easy-wi/'
+    - type: 'twitter'
+      link: 'https://twitter.com/EasyWi'
 
 # Extensions
 markdown_extensions:
