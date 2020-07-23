@@ -7,7 +7,7 @@ branches: master
 install:
   - pip install mkdocs mkdocs-material
 
-script: true
+script:
   - mkdocs build --verbose --clean --strict
 
 before_deploy:
