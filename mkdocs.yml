@@ -35,11 +35,11 @@ extra:
   search:
     language: 'en, de'
   social:
-    - type: 'github'
+    - icon: 'octicons/mark-github-16'
       link: 'https://github.com/easy-wi/'
-    - type: 'question-circle'
+    - icon: 'fontawesome/brands/discord'
       link: 'https://discord.gg/quJvvfF'
-    - type: 'twitter'
+    - icon: 'fontawesome/brands/twitter'
       link: 'https://twitter.com/EasyWi'
 
 # Extensions
