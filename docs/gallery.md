@@ -80,9 +80,6 @@
 
 [![Feeds](assets/img/gallery/admin/feeds.png)](assets/img/gallery/admin/feeds.png)
 
-### Feed Settings
-
-[![Feed Settings](assets/img/gallery/admin/feedsettings.png)](assets/img/gallery/admin/feedsettings.png)
 
 
 
