@@ -1,65 +1,119 @@
 # Gallery
 
-## Admin
+# Admin
+
+
+## Reworked Theme
+
+### Login
+
+[![LoginNew](assets/img/gallery/admin/login.png)](assets/img/gallery/admin/login.png)
+
+### CMS
+
+[![CMSNew](assets/img/gallery/admin/cmsnew.png)](assets/img/gallery/admin/cmsnew.png)
 
 ### Dashboard
 
-[![Dashboard](assets/img/gallery/dashboard.png)](assets/img/gallery/dashboard.png)
+[![DashboardNew](assets/img/gallery/admin/dashboardnew.png)](assets/img/gallery/admin/dashboardnew.png)
 
 ### Game Server Templates
 
-[![Game Server Templates](assets/img/gallery/gameservertemplate.png)](assets/img/gallery/gameservertemplate.png)
+[![Game Master ServerNew](assets/img/gallery/admin/Gtemplatenew.png)](assets/img/gallery/admin/Gtemplatenew.png)
 
 ### Game Master Server
 
-[![Game Master Server](assets/img/gallery/gamemasterserver.png)](assets/img/gallery/gamemasterserver.png)
-
-### Game Server Add
-
-[![Game Server](assets/img/gallery/gameserveradd.png)](assets/img/gallery/gameserveradd.png)
-
-### Voice Server Add
-
-[![Voice Server](assets/img/gallery/voiceadd.png)](assets/img/gallery/voiceadd.png)
+[![Game Master Server New](assets/img/gallery/admin/masterappsnew.png)](assets/img/gallery/admin/masterappsnew.png)
 
 ### Voice Stats
 
-[![Voice Stats](assets/img/gallery/voicestats.png)](assets/img/gallery/voicestats.png)
+[![Voice Stats New](assets/img/gallery/admin/vstatsnew.png)](assets/img/gallery/admin/vstatsnew.png)
+
+
+## Default Theme
+
+### Dashboard
+
+[![Dashboard](assets/img/gallery/admin/dashboard.png)](assets/img/gallery/admin/dashboard.png)
+
+### Game Server Templates
+
+[![Game Server Templates](assets/img/gallery/admin/gameservertemplate.png)](assets/img/gallery/admin/gameservertemplate.png)
+
+### Game Master Server
+
+[![Game Master Server](assets/img/gallery/admin/gamemasterserver.png)](assets/img/gallery/admin/gamemasterserver.png)
+
+### Game Server Add
+
+[![Game Server](assets/img/gallery/admin/gameserveradd.png)](assets/img/gallery/admin/gameserveradd.png)
+
+### Voice Server Add
+
+[![Voice Server](assets/img/gallery/admin/voiceadd.png)](assets/img/gallery/admin/voiceadd.png)
+
+### Voice Stats
+
+[![Voice Stats](assets/img/gallery/admin/voicestats.png)](assets/img/gallery/admin/voicestats.png)
 
 ### Voice TSDNS
 
-[![Voice TSDNS](assets/img/gallery/voicetsdnsadd.png)](assets/img/gallery/voicetsdnsadd.png)
+[![Voice TSDNS](assets/img/gallery/admin/voicetsdnsadd.png)](assets/img/gallery/admin/voicetsdnsadd.png)
 
 ### Lend Server
 
-[![Lend Server](assets/img/gallery/lendserver.png)](assets/img/gallery/lendserver.png)
+[![Lend Server](assets/img/gallery/admin/lendserver.png)](assets/img/gallery/admin/lendserver.png)
 
 ### User Groups
 
-[![User Groups](assets/img/gallery/user_groups.png)](assets/img/gallery/user_groups.png)
+[![User Groups](assets/img/gallery/admin/user_groups.png)](assets/img/gallery/admin/user_groups.png)
 
 ### User List
 
-[![User List](assets/img/gallery/userlist.png)](assets/img/gallery/userlist.png)
+[![User List](assets/img/gallery/admin/userlist.png)](assets/img/gallery/admin/userlist.png)
 
 ### Jobs
 
-[![Jobs](assets/img/gallery/jobs.png)](assets/img/gallery/jobs.png)
+[![Jobs](assets/img/gallery/admin/jobs.png)](assets/img/gallery/admin/jobs.png)
 
 ### Feeds
 
-[![Feeds](assets/img/gallery/feeds.png)](assets/img/gallery/feeds.png)
+[![Feeds](assets/img/gallery/admin/feeds.png)](assets/img/gallery/admin/feeds.png)
 
 ### Feed Settings
 
-[![Feed Settings](assets/img/gallery/feedsettings.png)](assets/img/gallery/feedsettings.png)
+[![Feed Settings](assets/img/gallery/admin/feedsettings.png)](assets/img/gallery/admin/feedsettings.png)
 
-## User
+
+
+# User
+
+## Reworked Theme
+
+### Dashboard
+
+[![Dashboardusr New](assets/img/gallery/user/dashboardusr.png)](assets/img/gallery/user/dashboardusr.png)
 
 ### Game Server Overview
 
-[![Game Server Overview](assets/img/gallery/gameuseroverview.png)](assets/img/gallery/gameuseroverview.png)
+[![Game Server Overview New](assets/img/gallery/user/gserverusrlist.png)](assets/img/gallery/user/gserverusrlist.png)
+
+### Game Server Settings
+
+[![Game Server Settings New](assets/img/gallery/user/gserversettings.png)](assets/img/gallery/user/gserversettings.png)
 
 ### Voice Server Overview
 
-[![Voice Server Overview](assets/img/gallery/voiceuser.png)](assets/img/gallery/voiceuser.png)
+[![Voice Server Overview New](assets/img/gallery/user/voiceserver.png)](assets/img/gallery/user/voiceserver.png)
+
+
+
+## Default Theme
+
+### Game Server Overview
+
+[![Game Server Overview](assets/img/gallery/user/gameuseroverview.png)](assets/img/gallery/user/gameuseroverview.png)
+
+### Voice Server Overview
+
+[![Voice Server Overview](assets/img/gallery/user/voiceuser.png)](assets/img/gallery/user/voiceuser.png)
