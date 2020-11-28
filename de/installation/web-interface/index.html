@@ -1,0 +1,2967 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A game and voice server and webspace webinterface">
+      
+      
+      
+        <link rel="canonical" href="https://easy-wi.com/de/installation/web-interface/">
+      
+      
+        <meta name="author" content="Alexander Dörwald">
+      
+      <link rel="shortcut icon" href="../../../assets/img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.6">
+    
+    
+      
+        <title>Web Interface - Easy-Wi Webinterface</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6910b76c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.196e0c26.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#2094f3">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="blue">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#web-interface" class="md-skip">
+          
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="">
+    <a href="https://easy-wi.com" title="Easy-Wi Webinterface" class="md-header-nav__button md-logo" aria-label="Easy-Wi Webinterface">
+      
+  <img src="../../../assets/img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Easy-Wi Webinterface
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Web Interface
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        <!--
+  Copyright (c) 2016-2017 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!--
+  Check whether the repository is hosted on one of the supported code hosting
+  platforms (Github, Gitlab or Bitbucket) to show icon.
+-->
+
+
+  
+
+
+<!-- Repository containing source -->
+
+  <a href="https://github.com/easy-wi/developer" title="Quellcode"
+      class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      easy-wi/page
+    </div>
+  </a>
+
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://easy-wi.com" title="Easy-Wi Webinterface" class="md-nav__button md-logo" aria-label="Easy-Wi Webinterface">
+      
+  <img src="../../../assets/img/logo.png" alt="logo">
+
+    </a>
+    Easy-Wi Webinterface
+  </label>
+  
+    <div class="md-nav__source">
+      <!--
+  Copyright (c) 2016-2017 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!--
+  Check whether the repository is hosted on one of the supported code hosting
+  platforms (Github, Gitlab or Bitbucket) to show icon.
+-->
+
+
+  
+
+
+<!-- Repository containing source -->
+
+  <a href="https://github.com/easy-wi/developer" title="Quellcode"
+      class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      easy-wi/page
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." class="md-nav__link">
+      Easy-Wi
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../gallery/" class="md-nav__link">
+      Gallery
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    <label class="md-nav__link" for="nav-3">
+      English
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="English" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        English
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/downloads/" class="md-nav__link">
+      Downloads
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" >
+    <label class="md-nav__link" for="nav-3-2">
+      News
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="News" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        <span class="md-nav__icon md-icon"></span>
+        News
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2018-01-06/easy-wi-update-6-0-4/" class="md-nav__link">
+      Easy-Wi Update 6.0.4
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2017-05-14/easy-wi-update-6-0-0/" class="md-nav__link">
+      Easy-Wi Update 6.0.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2016-05-08/easy-wi-update-5-30/" class="md-nav__link">
+      Easy-Wi Update 5.30
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2016-03-25/easy-wi-update-5-22/" class="md-nav__link">
+      Easy-Wi Update 5.22
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2016-02-27/installer-update-1-3/" class="md-nav__link">
+      Installer Update 1.3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2016-02-27/easy-wi-update-5-21/" class="md-nav__link">
+      Easy-Wi Update 5.21
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2015-12-28/easy-wi-update-5-2/" class="md-nav__link">
+      Easy-Wi Update 5.2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2015-06-27/easy-wi-update-5-1/" class="md-nav__link">
+      Easy-Wi Update 5.1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2015-05-31/easy-wi-update-5-0/" class="md-nav__link">
+      Easy-Wi Update 5.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2014-05-10/easy-wi-update-4-4/" class="md-nav__link">
+      Easy-Wi Update 4.4
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2014-01-28/easy-wi-update-4-3/" class="md-nav__link">
+      Easy-Wi Update 4.3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2013-12-22/easy-wi-update-4-2/" class="md-nav__link">
+      Easy-Wi Update 4.2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2013-10-23/easy-wi-update-4-11/" class="md-nav__link">
+      Easy-Wi Update 4.11
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2013-10-20/easy-wi-update-4-10/" class="md-nav__link">
+      Easy-Wi Update 4.10
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/news/2013-08-31/easy-wi-update-4-0/" class="md-nav__link">
+      Easy-Wi Update 4.0
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3" >
+    <label class="md-nav__link" for="nav-3-3">
+      FAQ
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="FAQ" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        <span class="md-nav__icon md-icon"></span>
+        FAQ
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/faq/conditions/" class="md-nav__link">
+      Requirements
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/faq/functions/" class="md-nav__link">
+      Functions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/faq/game-server/" class="md-nav__link">
+      Game Server
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4" >
+    <label class="md-nav__link" for="nav-3-4">
+      Installation
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Installation" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        <span class="md-nav__icon md-icon"></span>
+        Installation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/installation/web-interface/" class="md-nav__link">
+      Web Interface
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/installation/game-root-server/" class="md-nav__link">
+      Game Root Server
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/installation/image-server/" class="md-nav__link">
+      Image Server
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/installation/voice-root-server/" class="md-nav__link">
+      Voice Root Server
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-5" type="checkbox" id="nav-3-5" >
+    <label class="md-nav__link" for="nav-3-5">
+      Admin
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Admin" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-5">
+        <span class="md-nav__icon md-icon"></span>
+        Admin
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-5-1" type="checkbox" id="nav-3-5-1" >
+    <label class="md-nav__link" for="nav-3-5-1">
+      Settings
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Settings" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-5-1">
+        <span class="md-nav__icon md-icon"></span>
+        Settings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/settings/settings/" class="md-nav__link">
+      Settings
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/settings/email/" class="md-nav__link">
+      E-Mail
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/settings/imprint/" class="md-nav__link">
+      Imprint
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-5-2" type="checkbox" id="nav-3-5-2" >
+    <label class="md-nav__link" for="nav-3-5-2">
+      Jobs/API
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Jobs/API" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-5-2">
+        <span class="md-nav__icon md-icon"></span>
+        Jobs/API
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/jobs-api/api-settings/" class="md-nav__link">
+      API Settings
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/jobs-api/external-authentication/" class="md-nav__link">
+      External Authentication
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/jobs-api/user-import/" class="md-nav__link">
+      User Import
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-5-3" type="checkbox" id="nav-3-5-3" >
+    <label class="md-nav__link" for="nav-3-5-3">
+      MySQL
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="MySQL" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-5-3">
+        <span class="md-nav__icon md-icon"></span>
+        MySQL
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/mysql/overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/mysql/master/" class="md-nav__link">
+      Master
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-5-4" type="checkbox" id="nav-3-5-4" >
+    <label class="md-nav__link" for="nav-3-5-4">
+      Game Server
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Game Server" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-5-4">
+        <span class="md-nav__icon md-icon"></span>
+        Game Server
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/game-server/templates/" class="md-nav__link">
+      Templates
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/game-server/addons/" class="md-nav__link">
+      Addons
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/game-server/easy-anti-cheat/" class="md-nav__link">
+      Easy Anti Cheat
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-5-5" type="checkbox" id="nav-3-5-5" >
+    <label class="md-nav__link" for="nav-3-5-5">
+      App/Game Master
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="App/Game Master" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-5-5">
+        <span class="md-nav__icon md-icon"></span>
+        App/Game Master
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/app-game-master/overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/app-game-master/master-apps/" class="md-nav__link">
+      Master Apps
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/app-game-master/apps-update/" class="md-nav__link">
+      Master Apps Update
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-5-6" type="checkbox" id="nav-3-5-6" >
+    <label class="md-nav__link" for="nav-3-5-6">
+      Test/Lend Server
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Test/Lend Server" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-5-6">
+        <span class="md-nav__icon md-icon"></span>
+        Test/Lend Server
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/leih-server/overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../en/admin/leih-server/settings/" class="md-nav__link">
+      Settings
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    <label class="md-nav__link" for="nav-4">
+      Deutsch
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Deutsch" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Deutsch
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../downloads/" class="md-nav__link">
+      Downloads
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2" >
+    <label class="md-nav__link" for="nav-4-2">
+      News
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="News" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-2">
+        <span class="md-nav__icon md-icon"></span>
+        News
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2018-01-06/easy-wi-update-6-0-4/" class="md-nav__link">
+      Easy-Wi Update 6.0.4
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2017-05-14/easy-wi-update-6-0-0/" class="md-nav__link">
+      Easy-Wi Update 6.0.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2016-05-08/easy-wi-update-5-30/" class="md-nav__link">
+      Easy-Wi Update 5.30
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2016-03-25/easy-wi-update-5-22/" class="md-nav__link">
+      Easy-Wi Update 5.22
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2016-02-27/installer-update-1-3/" class="md-nav__link">
+      Installer Update 1.3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2016-02-27/easy-wi-update-5-21/" class="md-nav__link">
+      Easy-Wi Update 5.21
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2015-12-28/easy-wi-update-5-2/" class="md-nav__link">
+      Easy-Wi Update 5.2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2015-06-27/easy-wi-update-5-1/" class="md-nav__link">
+      Easy-Wi Update 5.1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2015-05-31/easy-wi-update-5-0/" class="md-nav__link">
+      Easy-Wi Update 5.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2014-05-10/easy-wi-update-4-4/" class="md-nav__link">
+      Easy-Wi Update 4.4
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2014-01-28/easy-wi-update-4-3/" class="md-nav__link">
+      Easy-Wi Update 4.3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2013-12-22/easy-wi-update-4-2/" class="md-nav__link">
+      Easy-Wi Update 4.2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2013-10-23/easy-wi-update-4-11/" class="md-nav__link">
+      Easy-Wi Update 4.11
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2013-10-20/easy-wi-update-4-10/" class="md-nav__link">
+      Easy-Wi Update 4.10
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../news/2013-08-31/easy-wi-update-4-0/" class="md-nav__link">
+      Easy-Wi Update 4.0
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3" >
+    <label class="md-nav__link" for="nav-4-3">
+      FAQ
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="FAQ" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        <span class="md-nav__icon md-icon"></span>
+        FAQ
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../faq/anforderungen/" class="md-nav__link">
+      Anforderungen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../faq/funktionen/" class="md-nav__link">
+      Funktionen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../faq/game-server/" class="md-nav__link">
+      Game Server
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4" checked>
+    <label class="md-nav__link" for="nav-4-4">
+      Installation
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Installation" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-4">
+        <span class="md-nav__icon md-icon"></span>
+        Installation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Web Interface
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Web Interface
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#einleitung" class="md-nav__link">
+    Einleitung
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installer-fur-rootv-server" class="md-nav__link">
+    Installer für Root/V-Server
+  </a>
+  
+    <nav class="md-nav" aria-label="Installer für Root/V-Server">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installer" class="md-nav__link">
+    Installer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-update" class="md-nav__link">
+    System Update
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web-space-installation" class="md-nav__link">
+    Web Space Installation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#domain-auswahl" class="md-nav__link">
+    Domain Auswahl
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web-master-user" class="md-nav__link">
+    Web Master User
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#http-server" class="md-nav__link">
+    HTTP Server
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mysqlmariadb" class="md-nav__link">
+    MySQL/MariaDB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-von-easy-wi" class="md-nav__link">
+    Download von Easy-Wi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tlsssl" class="md-nav__link">
+    TLS/SSL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abschluss" class="md-nav__link">
+    Abschluss
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-installer" class="md-nav__link">
+    Web Installer
+  </a>
+  
+    <nav class="md-nav" aria-label="Web Installer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dateien-hochladen" class="md-nav__link">
+    Dateien Hochladen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datenbank-und-datenbank-user" class="md-nav__link">
+    Datenbank und Datenbank User
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installer-aufrufen" class="md-nav__link">
+    Installer Aufrufen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-uberprufung" class="md-nav__link">
+    System Überprüfung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-daten-und-passphrase" class="md-nav__link">
+    SQL Daten und Passphrase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datenbank-erstellung" class="md-nav__link">
+    Datenbank Erstellung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initialer-admin-account" class="md-nav__link">
+    Initialer Admin Account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#webseiten-daten" class="md-nav__link">
+    Webseiten Daten
+  </a>
+  
+    <nav class="md-nav" aria-label="Webseiten Daten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#url" class="md-nav__link">
+    URL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zeitzone" class="md-nav__link">
+    Zeitzone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#titel" class="md-nav__link">
+    Titel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standartsprache" class="md-nav__link">
+    Standartsprache
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#email" class="md-nav__link">
+    Email
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#captcha" class="md-nav__link">
+    Captcha
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erlaubte-fehlerzahl" class="md-nav__link">
+    Erlaubte Fehlerzahl
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#servertag" class="md-nav__link">
+    Servertag
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benutzernamen" class="md-nav__link">
+    Benutzernamen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anlegen-von-datenbank-eintragen" class="md-nav__link">
+    Anlegen von Datenbank Einträgen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cronjobs" class="md-nav__link">
+    Cronjobs
+  </a>
+  
+    <nav class="md-nav" aria-label="Cronjobs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standard-einstellungen" class="md-nav__link">
+    Standard Einstellungen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statuscheckphp" class="md-nav__link">
+    statuscheck.php
+  </a>
+  
+    <nav class="md-nav" aria-label="statuscheck.php">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ts3-statuscheck-performance" class="md-nav__link">
+    TS3 Statuscheck Performance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neustarts" class="md-nav__link">
+    Neustarts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trennung-von-server-typen" class="md-nav__link">
+    Trennung von Server Typen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speichern-und-restart" class="md-nav__link">
+    Speichern und Restart
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#absichern-den-webspaces" class="md-nav__link">
+    Absichern den Webspaces
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../game-root-server/" class="md-nav__link">
+      Game Root Server
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../image-server/" class="md-nav__link">
+      Image Server
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../voice-root-server/" class="md-nav__link">
+      Voice Root Server
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5" >
+    <label class="md-nav__link" for="nav-4-5">
+      Admin
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Admin" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-5">
+        <span class="md-nav__icon md-icon"></span>
+        Admin
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-5-1" type="checkbox" id="nav-4-5-1" >
+    <label class="md-nav__link" for="nav-4-5-1">
+      Einstellungen
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Einstellungen" data-md-level="3">
+      <label class="md-nav__title" for="nav-4-5-1">
+        <span class="md-nav__icon md-icon"></span>
+        Einstellungen
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/einstellungen/einstellungen/" class="md-nav__link">
+      Einstellungen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/einstellungen/email/" class="md-nav__link">
+      E-Mail
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/einstellungen/imprint/" class="md-nav__link">
+      Impressum
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-5-2" type="checkbox" id="nav-4-5-2" >
+    <label class="md-nav__link" for="nav-4-5-2">
+      Jobs/API
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Jobs/API" data-md-level="3">
+      <label class="md-nav__title" for="nav-4-5-2">
+        <span class="md-nav__icon md-icon"></span>
+        Jobs/API
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/jobs-api/api-einstellungen/" class="md-nav__link">
+      API Einstellungen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/jobs-api/externe-authentifizierung/" class="md-nav__link">
+      Externe Authentifizierung
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/jobs-api/benutzer-import/" class="md-nav__link">
+      Benutzer Import
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-5-3" type="checkbox" id="nav-4-5-3" >
+    <label class="md-nav__link" for="nav-4-5-3">
+      MySQL
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="MySQL" data-md-level="3">
+      <label class="md-nav__title" for="nav-4-5-3">
+        <span class="md-nav__icon md-icon"></span>
+        MySQL
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/mysql/uebersicht/" class="md-nav__link">
+      Übersicht
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/mysql/master/" class="md-nav__link">
+      Master
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-5-4" type="checkbox" id="nav-4-5-4" >
+    <label class="md-nav__link" for="nav-4-5-4">
+      Game Server
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Game Server" data-md-level="3">
+      <label class="md-nav__title" for="nav-4-5-4">
+        <span class="md-nav__icon md-icon"></span>
+        Game Server
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/game-server/templates/" class="md-nav__link">
+      Templates
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/game-server/addons/" class="md-nav__link">
+      Addons
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/game-server/easy-anti-cheat/" class="md-nav__link">
+      Easy Anti Cheat
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-5-5" type="checkbox" id="nav-4-5-5" >
+    <label class="md-nav__link" for="nav-4-5-5">
+      App/Game Master
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="App/Game Master" data-md-level="3">
+      <label class="md-nav__title" for="nav-4-5-5">
+        <span class="md-nav__icon md-icon"></span>
+        App/Game Master
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/app-game-master/uebersicht/" class="md-nav__link">
+      Übersicht
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/app-game-master/master-apps/" class="md-nav__link">
+      Master Apps
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/app-game-master/apps-update/" class="md-nav__link">
+      Master Apps Update
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-5-6" type="checkbox" id="nav-4-5-6" >
+    <label class="md-nav__link" for="nav-4-5-6">
+      Test/Lend Server
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Test/Lend Server" data-md-level="3">
+      <label class="md-nav__title" for="nav-4-5-6">
+        <span class="md-nav__icon md-icon"></span>
+        Test/Lend Server
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/leih-server/uebersicht/" class="md-nav__link">
+      Übersicht
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../admin/leih-server/einstelltungen/" class="md-nav__link">
+      Einstellungen
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-6" type="checkbox" id="nav-4-6" >
+    <label class="md-nav__link" for="nav-4-6">
+      User
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="User" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-6">
+        <span class="md-nav__icon md-icon"></span>
+        User
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-6-1" type="checkbox" id="nav-4-6-1" >
+    <label class="md-nav__link" for="nav-4-6-1">
+      Game Server
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Game Server" data-md-level="3">
+      <label class="md-nav__title" for="nav-4-6-1">
+        <span class="md-nav__icon md-icon"></span>
+        Game Server
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user/game-server/uebersicht/" class="md-nav__link">
+      Übersicht
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user/game-server/fast-download/" class="md-nav__link">
+      Fast Download
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-7" type="checkbox" id="nav-4-7" >
+    <label class="md-nav__link" for="nav-4-7">
+      API
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="API" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-7">
+        <span class="md-nav__icon md-icon"></span>
+        API
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/allgemeines/" class="md-nav__link">
+      Allgemeines
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/benutzer/" class="md-nav__link">
+      Benutzer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/game-server/" class="md-nav__link">
+      Game Server
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/voice-server/" class="md-nav__link">
+      Voice Server
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/mysql/" class="md-nav__link">
+      MySQL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/verleih-server/" class="md-nav__link">
+      Verleih Server
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/protectioncheck/" class="md-nav__link">
+      Protectioncheck
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/webspace/" class="md-nav__link">
+      Webspace
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../license/" class="md-nav__link">
+      License
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../impressum/" class="md-nav__link">
+      Impressum/Imprint
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../datenschutzerklaerung/" class="md-nav__link">
+      Datenschutzerklärung
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#einleitung" class="md-nav__link">
+    Einleitung
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installer-fur-rootv-server" class="md-nav__link">
+    Installer für Root/V-Server
+  </a>
+  
+    <nav class="md-nav" aria-label="Installer für Root/V-Server">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installer" class="md-nav__link">
+    Installer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-update" class="md-nav__link">
+    System Update
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web-space-installation" class="md-nav__link">
+    Web Space Installation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#domain-auswahl" class="md-nav__link">
+    Domain Auswahl
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web-master-user" class="md-nav__link">
+    Web Master User
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#http-server" class="md-nav__link">
+    HTTP Server
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mysqlmariadb" class="md-nav__link">
+    MySQL/MariaDB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-von-easy-wi" class="md-nav__link">
+    Download von Easy-Wi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tlsssl" class="md-nav__link">
+    TLS/SSL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abschluss" class="md-nav__link">
+    Abschluss
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-installer" class="md-nav__link">
+    Web Installer
+  </a>
+  
+    <nav class="md-nav" aria-label="Web Installer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dateien-hochladen" class="md-nav__link">
+    Dateien Hochladen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datenbank-und-datenbank-user" class="md-nav__link">
+    Datenbank und Datenbank User
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installer-aufrufen" class="md-nav__link">
+    Installer Aufrufen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-uberprufung" class="md-nav__link">
+    System Überprüfung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-daten-und-passphrase" class="md-nav__link">
+    SQL Daten und Passphrase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datenbank-erstellung" class="md-nav__link">
+    Datenbank Erstellung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initialer-admin-account" class="md-nav__link">
+    Initialer Admin Account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#webseiten-daten" class="md-nav__link">
+    Webseiten Daten
+  </a>
+  
+    <nav class="md-nav" aria-label="Webseiten Daten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#url" class="md-nav__link">
+    URL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zeitzone" class="md-nav__link">
+    Zeitzone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#titel" class="md-nav__link">
+    Titel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standartsprache" class="md-nav__link">
+    Standartsprache
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#email" class="md-nav__link">
+    Email
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#captcha" class="md-nav__link">
+    Captcha
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erlaubte-fehlerzahl" class="md-nav__link">
+    Erlaubte Fehlerzahl
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#servertag" class="md-nav__link">
+    Servertag
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benutzernamen" class="md-nav__link">
+    Benutzernamen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anlegen-von-datenbank-eintragen" class="md-nav__link">
+    Anlegen von Datenbank Einträgen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cronjobs" class="md-nav__link">
+    Cronjobs
+  </a>
+  
+    <nav class="md-nav" aria-label="Cronjobs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standard-einstellungen" class="md-nav__link">
+    Standard Einstellungen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statuscheckphp" class="md-nav__link">
+    statuscheck.php
+  </a>
+  
+    <nav class="md-nav" aria-label="statuscheck.php">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ts3-statuscheck-performance" class="md-nav__link">
+    TS3 Statuscheck Performance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neustarts" class="md-nav__link">
+    Neustarts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trennung-von-server-typen" class="md-nav__link">
+    Trennung von Server Typen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speichern-und-restart" class="md-nav__link">
+    Speichern und Restart
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#absichern-den-webspaces" class="md-nav__link">
+    Absichern den Webspaces
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/easy-wi/page/edit/master/docs/de/installation/web-interface.md" title="Seite editieren" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="web-interface">Web Interface<a class="headerlink" href="#web-interface" title="Permanent link">&para;</a></h1>
+<h2 id="einleitung">Einleitung<a class="headerlink" href="#einleitung" title="Permanent link">&para;</a></h2>
+<p>Easy-WI besitzt einen Installer, mittels dessen man einen blanken Root, oder V-Server von null auf einrichten kann. Wer bereits über einen Webspace mit MySQL bzw. MariaDB verfügt kann den ersten Teil überspringen und gleich zu <a href="#web-installer">Web Installer</a> gehen.</p>
+<h2 id="installer-fur-rootv-server">Installer für Root/V-Server<a class="headerlink" href="#installer-fur-rootv-server" title="Permanent link">&para;</a></h2>
+<p>Wenn man noch keinen Webspace auf dem Server konfiguriert hat, kann man die geführte Installation mittels BASH Installer benutzen. Dieser wird die notwendigen Pakete Vhost und Benutzer erstellen und konfigurieren.</p>
+<h3 id="installer">Installer<a class="headerlink" href="#installer" title="Permanent link">&para;</a></h3>
+<p>Den aktuellen Installer bekommt man auf <a href="https://github.com/easy-wi/installer">Github - Easy-WI Installer</a></p>
+<h3 id="system-update">System Update<a class="headerlink" href="#system-update" title="Permanent link">&para;</a></h3>
+<p>Die erste Frage des Installers wird wie folgt lauten:</p>
+<div class="codehilite"><pre><span></span><code>Update the system packages to the latest version? Required, as otherwise dependencies might brake!
+<span class="m">1</span><span class="o">)</span> Yes
+<span class="m">2</span><span class="o">)</span> Quit
+<span class="c1">#? 1</span>
+</code></pre></div>
+
+<p>Wenn man hier mit etwas anderem als "Yes" antwortet, wird der Installer abbrechen, da es sonst zu Problemen in Abhängigkeiten kommen kann.</p>
+<h3 id="web-space-installation">Web Space Installation<a class="headerlink" href="#web-space-installation" title="Permanent link">&para;</a></h3>
+<p>Als nächstes fragt der Installer, welche Master Installation vorgenommen werden soll. In unserem Fall ist das "Easy-WI Webpanel".</p>
+<div class="codehilite"><pre><span></span><code>What shall be installed/prepared?
+<span class="m">1</span><span class="o">)</span> Game Server Root   <span class="m">3</span><span class="o">)</span> Easy-WI Webpanel  <span class="m">5</span><span class="o">)</span> MySQL
+<span class="m">2</span><span class="o">)</span> Voicemaster       <span class="m">4</span><span class="o">)</span> Webspace Root     <span class="m">6</span><span class="o">)</span> Quit
+<span class="c1">#? 3</span>
+</code></pre></div>
+
+<h3 id="domain-auswahl">Domain Auswahl<a class="headerlink" href="#domain-auswahl" title="Permanent link">&para;</a></h3>
+<p>Nun muss man angeben, auf welcher URL Easy-WI laufen soll. Dabei werden Domain und IP Daten des Systems automatsich bestimmt und zur Auswahl angeboten.</p>
+<div class="codehilite"><pre><span></span><code>At which URL/Domain should Easy-Wi be placed?
+<span class="m">1</span><span class="o">)</span> domain.tld  <span class="m">3</span><span class="o">)</span> Other
+<span class="m">2</span><span class="o">)</span> <span class="m">192</span>.168.178.54    <span class="m">4</span><span class="o">)</span> Quit
+<span class="c1">#? 1</span>
+</code></pre></div>
+
+<h3 id="web-master-user">Web Master User<a class="headerlink" href="#web-master-user" title="Permanent link">&para;</a></h3>
+<p>Nun wird man nach dem Namen des anzulegenden Master Users gefragt. Wenn man bereits in einem vorherigen Durchlauf einen Master User für Webspace, oder anderes angegeben hat, dann diesmal einen anderen Namen verwende, um Konflikte zu vermeiden.</p>
+<div class="codehilite"><pre><span></span><code>Please enter the name of the masteruser. If it does not exists, the installer will create it.
+easy-wi_web_panel
+</code></pre></div>
+
+<p>Zugangsdaten für den System Benutzer werden wir keine brauchen, da er rein technischer Natur ist. Deswegen Skip auswählen.</p>
+<div class="codehilite"><pre><span></span><code>Create key or <span class="nb">set</span> password <span class="k">for</span> login?
+Safest way of login is a password protected key.
+<span class="m">1</span><span class="o">)</span> Create key
+<span class="m">2</span><span class="o">)</span> Set password
+<span class="m">3</span><span class="o">)</span> Skip
+<span class="m">4</span><span class="o">)</span> Quit
+<span class="c1">#? 3</span>
+</code></pre></div>
+
+<h3 id="http-server">HTTP Server<a class="headerlink" href="#http-server" title="Permanent link">&para;</a></h3>
+<p>Nun wird gefragt, welchen Typ von HTTP Server man verwenden will. Wenn das System rein für das Hosten des Panels verwendet werden soll und oder wenig Ressourcen zur verfügung hat, nimmt man am Nginx. Wenn noch zahlreiche andere Domains verwaltet werden sollen, dann Apache.</p>
+<div class="codehilite"><pre><span></span><code>Please <span class="k">select</span> the webserver you would like to use
+Apache is recommended in <span class="k">case</span> you want to run additional sites on this host.
+Nginx is recommended <span class="k">if</span> the server should only run the Easy-WI Web Panel.
+<span class="m">1</span><span class="o">)</span> Nginx
+<span class="m">2</span><span class="o">)</span> Apache
+<span class="m">3</span><span class="o">)</span> Quit
+<span class="c1">#? 1</span>
+</code></pre></div>
+
+<h3 id="mysqlmariadb">MySQL/MariaDB<a class="headerlink" href="#mysqlmariadb" title="Permanent link">&para;</a></h3>
+<p>Wenn noch kein MySQL Server installiert worden sein sollte, wird dieser installiert und man in einem Dialog gebeten, dass "root" Passwort für den MySQL Server zu setzen. Dies sollte ein anderes als das root Passwort des Linux Servers sein.</p>
+<h3 id="download-von-easy-wi">Download von Easy-Wi<a class="headerlink" href="#download-von-easy-wi" title="Permanent link">&para;</a></h3>
+<p>Im nächsten Schritt wird der eigentliche Webspace für Easy-Wi vorbereitet.</p>
+<div class="codehilite"><pre><span></span><code>Unpack zipped Easy-WI archive.
+</code></pre></div>
+
+<h3 id="tlsssl">TLS/SSL<a class="headerlink" href="#tlsssl" title="Permanent link">&para;</a></h3>
+<p>Um eine sichere Datenübertragung zu gewährleisten, wird einem nun die Option geboten TLS/SSL einzurichten. Es wird dabei ein selbst signiertes Zertifikat erstellt.</p>
+<div class="codehilite"><pre><span></span><code>Secure Vhost with SSL? <span class="o">(</span>recommended!<span class="o">)</span>
+<span class="m">1</span><span class="o">)</span> Yes
+<span class="m">2</span><span class="o">)</span> No
+<span class="m">3</span><span class="o">)</span> Quit
+<span class="c1">#? 1</span>
+</code></pre></div>
+
+<h3 id="abschluss">Abschluss<a class="headerlink" href="#abschluss" title="Permanent link">&para;</a></h3>
+<p>Zum Abschluss teilt einem der Installer mit wo man die Browser Gestützte Installation im Browser fortsetzen kann:</p>
+<div class="codehilite"><pre><span></span><code>Easy-WI Webpanel setup is <span class="k">done</span> regarding architecture. Please open https://domain.tld/install/install.php and <span class="nb">complete</span> the installation dialog.
+DB user and table name are <span class="s2">&quot;easy_wi&quot;</span>. The password is <span class="s2">&quot;u7d645Wk4saCuzgdy9&quot;</span>.
+</code></pre></div>
+
+<h2 id="web-installer">Web Installer<a class="headerlink" href="#web-installer" title="Permanent link">&para;</a></h2>
+<h3 id="dateien-hochladen">Dateien Hochladen<a class="headerlink" href="#dateien-hochladen" title="Permanent link">&para;</a></h3>
+<p>Wenn der <a href="#installer-fur-rootv-server">Installer für Root/V-Server</a> verwendet worden ist, dann sind die notwendigen Dateien bereits in das Verzeichnis für den Web Space geladen worden. Ebenso wurde eine Datenbank und ein Benutzer angelegt.</p>
+<p>Ohne Installer muss man als erstes die Dateien hochladen.</p>
+<h3 id="datenbank-und-datenbank-user">Datenbank und Datenbank User<a class="headerlink" href="#datenbank-und-datenbank-user" title="Permanent link">&para;</a></h3>
+<p>Das Falls man noch keine Datenbank angelegt hat, ist es nun Zeit dafür. Am besten verwendet man einen extra User, der ausschließlich auf diese Datenbank eine Datenbank Zugriff hat.</p>
+<h3 id="installer-aufrufen">Installer Aufrufen<a class="headerlink" href="#installer-aufrufen" title="Permanent link">&para;</a></h3>
+<p>Der Installer ist mittels Browser aufzurufen und befindet sich im "install" Ordner. Die URL könnte wie <code>http://meinedomain.tld/install/install.php</code> aussehen.</p>
+<p>Man sollten den Willkommensbildschirm sehen, den man mit "Weiter beendet".</p>
+<h3 id="system-uberprufung">System Überprüfung<a class="headerlink" href="#system-uberprufung" title="Permanent link">&para;</a></h3>
+<p>Nun kommt man zu der System Überprüfung. Existiert eine Fehlkonfiguration, oder ist ein benötigtes Modul nicht installiert, so wird es hier angezeigt.</p>
+<h3 id="sql-daten-und-passphrase">SQL Daten und Passphrase<a class="headerlink" href="#sql-daten-und-passphrase" title="Permanent link">&para;</a></h3>
+<p>Im nächsten Schritt wird man dazu aufgefordert seine SQL Daten, so wie eine Passphrase für die Verschlüsselung der Datenbank anzugeben. Es ist aus Sicherheitsgründen ratsam einen langen String zu verwenden. Sollte dieser Schlüssel verloren gehen, sind weite Teile der Datenbank verloren, da eine 128bit AES Verschlüsselung verwendet wird. Der Zugang zum Webteil von easy-wi ist davon aber nicht betroffen, da die dazugehörigen Passwörter als Hash mit Salt gespeichert werden. Wurde der "easy-wi_installer.sh" verwendet, sollten die Zugangsdaten am ende des Prozesses angezeigt worden sein.</p>
+<h3 id="datenbank-erstellung">Datenbank Erstellung<a class="headerlink" href="#datenbank-erstellung" title="Permanent link">&para;</a></h3>
+<p>Jetzt wird der MySQL Zugang validiert und im darauf folgenden Schritt die Tabellen Struktur angelegt. Zur etwaigen Fehleranalyse werden die ausgeführten SQL Befehle angezeigt. Im Anschluss wird die Tabellen Struktur abermals validiert.</p>
+<h3 id="initialer-admin-account">Initialer Admin Account<a class="headerlink" href="#initialer-admin-account" title="Permanent link">&para;</a></h3>
+<p>Nachdem die Tabellen Struktur erfolgreich erstellt worden ist, kann man den initialen Admin Account anlegen.</p>
+<h3 id="webseiten-daten">Webseiten Daten<a class="headerlink" href="#webseiten-daten" title="Permanent link">&para;</a></h3>
+<p>Im Schritt "Webseiten Daten" wird man dann aufgefordert die initiale Konfiguration vorzunehmen. Diese kann jederzeit nach der Installation wieder umgestellt werden.</p>
+<h4 id="url">URL<a class="headerlink" href="#url" title="Permanent link">&para;</a></h4>
+<p>Das erste Feld ist die URL, unter der Easy-WI erreichbar sein soll. Nur im Falle von einem fehlgeschlagenen Auto Detect überschreiben.</p>
+<h4 id="zeitzone">Zeitzone<a class="headerlink" href="#zeitzone" title="Permanent link">&para;</a></h4>
+<p>Die Zeitzone sollte auch automatisch voreingestellt sein. Nur umstellen, wenn diese nicht zutreffend ist.</p>
+<h4 id="titel">Titel<a class="headerlink" href="#titel" title="Permanent link">&para;</a></h4>
+<p>Der Homepage Titel wird oben im Browser angezeigt und kann für das Branding der Installation genutzt werden.</p>
+<h4 id="standartsprache">Standartsprache<a class="headerlink" href="#standartsprache" title="Permanent link">&para;</a></h4>
+<p>Die Standartsprache wird beim Login und wenn der User eine im Panel nicht verfügbare Sprache verwendet. Ist der User erst einmal eingeloggt, kann er selbstverständlich eine andere Sprache wählen.</p>
+<h4 id="email">Email<a class="headerlink" href="#email" title="Permanent link">&para;</a></h4>
+<p>Die Email Adresse, die man hier angibt, wird vom Panel als Absender verwendet. Sie wird z.B. eingesetzt, wenn ein Backup erfolgreich erstellt wurde, oder die Installation eines Virtuellen Servers abgeschlossen ist.</p>
+<h4 id="captcha">Captcha<a class="headerlink" href="#captcha" title="Permanent link">&para;</a></h4>
+<p>Das Captcha kann zur Bot abwehr benutzt werden und sollte nur aktiviert werden, wenn man spürbare Brut Force Attacken hat.</p>
+<h4 id="erlaubte-fehlerzahl">Erlaubte Fehlerzahl<a class="headerlink" href="#erlaubte-fehlerzahl" title="Permanent link">&para;</a></h4>
+<p>Überschreitet ein User die erlaubte Fehlerzahl am Stück, wird die IP Adresse für 15 Minuten blockiert.</p>
+<h4 id="servertag">Servertag<a class="headerlink" href="#servertag" title="Permanent link">&para;</a></h4>
+<p>Der Servertag spielt nur für Game und Voice Server eine Rolle. Ist das Tag definiert und beim Server die Überwachung aktiviert, dass ein Tag verwendet werden muss, wird sowohl der Admin, als auch der User ge- bzw. ermahnt, dass ein Servertag im Namen zu verwenden ist.</p>
+<h4 id="benutzernamen">Benutzernamen<a class="headerlink" href="#benutzernamen" title="Permanent link">&para;</a></h4>
+<p>Man kann bei Easy-WI Benutzernamen automatisiert vorgeben. Ist die Funktion aktiviert, werden Zahlenfolgen an den definierten Namen beim Erstellen angehängt wie "user-123".</p>
+<h3 id="anlegen-von-datenbank-eintragen">Anlegen von Datenbank Einträgen<a class="headerlink" href="#anlegen-von-datenbank-eintragen" title="Permanent link">&para;</a></h3>
+<p>In den folgenden Schritten werden nach und nach alle notwendigen Datenbank Einträge vorgenommen.</p>
+<h3 id="cronjobs">Cronjobs<a class="headerlink" href="#cronjobs" title="Permanent link">&para;</a></h3>
+<p>Am Ende der Installation werden einem mögliche Cronjob Konfigurationen angezeigt. Hat man den "easy-wi_installer.sh" verwendet, sind die Cronjobs bereits eingerichtet und nachfolgende Schritte sind nicht mehr erforderlich.</p>
+<h4 id="standard-einstellungen">Standard Einstellungen<a class="headerlink" href="#standard-einstellungen" title="Permanent link">&para;</a></h4>
+<p>Um alle Funktionen nutzen zu können, muss man noch die Cronjobs eintragen und Cron neu starten. Cronjobs trägt man in der Regel in die /etc/crontab ein. Bei Interfaces wie Plesk und Liveconfig muss man die Einstellungen direkt im Interface selber machen. Dabei lässt man den Teil mit dem PHP Usernamen aus. Ebenso wenig muss Cron danach neu gestartet werden.</p>
+<div class="codehilite"><pre><span></span><code>nano /etc/crontab
+</code></pre></div>
+
+<p>Dort folgendes angepasst auf seine Installation eintragen:</p>
+<div class="codehilite"><pre><span></span><code><span class="m">0</span> */1 * * * easywi_web <span class="nb">cd</span> /home/easywi_web/htdocs <span class="o">&amp;&amp;</span> timeout <span class="m">300</span> php ./reboot.php &gt;/dev/null <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>
+*/5 * * * * easywi_web <span class="nb">cd</span> /home/easywi_web/htdocs <span class="o">&amp;&amp;</span> timeout <span class="m">290</span> php ./statuscheck.php &gt;/dev/null <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>
+*/1 * * * * easywi_web <span class="nb">cd</span> /home/easywi_web/htdocs <span class="o">&amp;&amp;</span> timeout <span class="m">290</span> php ./startupdates.php &gt;/dev/null <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>
+*/5 * * * * easywi_web <span class="nb">cd</span> /home/easywi_web/htdocs <span class="o">&amp;&amp;</span> timeout <span class="m">290</span> php ./jobs.php &gt;/dev/null <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>
+*/10 * * * * easywi_web <span class="nb">cd</span> /home/easywi_web/htdocs <span class="o">&amp;&amp;</span> timeout <span class="m">290</span> php ./cloud.php &gt;/dev/null <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>
+</code></pre></div>
+
+<p>"easywi_web" und das Verzeichnis sind auf die jeweilige Installation anzupassen. Falls die Cronjobs nicht laufen, kann dies viele Ursachen haben:</p>
+<ul>
+<li>Falscher Pfad angegeben</li>
+<li>Falscher User angegeben</li>
+<li>Der Benutzer hat eine Shell konfiguriert, die nicht in der Datei "/etc/shells" gelistet ist.</li>
+</ul>
+<h4 id="statuscheckphp">statuscheck.php<a class="headerlink" href="#statuscheckphp" title="Permanent link">&para;</a></h4>
+<h5 id="ts3-statuscheck-performance">TS3 Statuscheck Performance<a class="headerlink" href="#ts3-statuscheck-performance" title="Permanent link">&para;</a></h5>
+<p>Es kann zu Performance Problemen auf TS3 Seite beim Statuscheck kommen, wenn eine TS3 Instanz viele virtuelle beinhaltet. Aus diesem Grund kann ein Colldown gesetzt werden. Dieser lässt das Script N Nanosekunden zwischen den einzelnen Querys schlafen:</p>
+<div class="codehilite"><pre><span></span><code>*/5 * * * * phpusername <span class="nb">cd</span> /var/www/deinedomain.tld/httpd/ <span class="o">&amp;&amp;</span> timeout <span class="m">290</span> php ./statuscheck.php coolDown:2 &gt;/dev/null <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>
+</code></pre></div>
+
+<h5 id="neustarts">Neustarts<a class="headerlink" href="#neustarts" title="Permanent link">&para;</a></h5>
+<p>Beim Statuscheck werden nur Server überprüft deren User und sie selber aktiviert vom Admin aktiviert wurden und der User nicht gestoppt hat. Wenn beim Statuscheck festgestellt wird, dass der Server offline ist, wird er automatisch neu gestartet.</p>
+<h5 id="trennung-von-server-typen">Trennung von Server Typen<a class="headerlink" href="#trennung-von-server-typen" title="Permanent link">&para;</a></h5>
+<p>Per Default werden mit der statuscheck.php Voice- und Game Server abgefragt. Auf der Konsole kann man sie mit den Zusatzparametern 'gs' und 'vs' aufrufen. In diesem Fall werden dann entweder Voice- oder Game Server überprüft. Eine solche Trennung macht dann Sinn, wenn man über sehr viele Server verfügt.</p>
+<h4 id="speichern-und-restart">Speichern und Restart<a class="headerlink" href="#speichern-und-restart" title="Permanent link">&para;</a></h4>
+<p>Nachdem man die beiden Einträge gemacht hat, speichert und schließt man Nano mit der Tastenkombination "strg+x" und dann "y". Im Anschluss startet man Cron neu:</p>
+<div class="codehilite"><pre><span></span><code>/etc/init.d/cron restart
+</code></pre></div>
+
+<h3 id="absichern-den-webspaces">Absichern den Webspaces<a class="headerlink" href="#absichern-den-webspaces" title="Permanent link">&para;</a></h3>
+<p>Im Browser sollte man nur Zugriff auf wenige PHP, JS, CSS und Grafik Dateien haben. Auf alle PHP Dateien, die nur includiert werden, braucht man z.B. keinen direkten Zugriff. Auf die config.php und keyphrasefile.php sollte der Zugriff aus dem Browser unter allem Umständen verhindert werden. Das Gleiche gilt für den Inhalt des "keys" Ordner. Es wird bereits eine .htaccess mit notwendigen Regeln beigelegt. Deren Funktion sollte aber validiert werden.</p>
+<p>Den Zugriff kann man verhindern, indem man die Regeln in der .htaccess, oder direkt im Vhost erweitert. Wenn man die Wahl hat, dann trägt man sie direkt in den Vhost ein, da sie hier im Gegensatz zum .htaccess Eintrag nicht bei jedem Seitenaufruf geparst werden müssen.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="">
+        
+          <a href="../../faq/game-server/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Vorherige Seite
+                </span>
+                Game Server
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../game-root-server/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Nächste Seite
+                </span>
+                Game Root Server
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2017-2020 Alexander Dörwald
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/easy-wi/" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://discord.gg/quJvvfF" target="_blank" rel="noopener" title="discord.gg" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://twitter.com/EasyWi" target="_blank" rel="noopener" title="twitter.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/vendor.fd16492e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.7836ba4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "In Zwischenablage kopieren", "clipboard.copied": "In Zwischenablage kopiert", "search.config.lang": "", "search.config.pipeline": "", "search.config.separator": "", "search.placeholder": "Suche", "search.result.placeholder": "Suchbegriff eingeben", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.more.one": "", "search.result.more.other": "", "search.result.term.missing": ""}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
