@@ -11,7 +11,7 @@ Being a hoster requires a webinterface that eases your daily work. Also clans an
 
 ### Stable Installer up to Debian 8, 9 and 10, Ubuntu 16.10, 18.04, 18.10 and 20.04 and CentOS 7 and 8
 ```sh
-wget -O installer.tar.gz https://github.com/easy-wi/installer/archive/3.0.tar.gz
+wget -O installer.tar.gz https://github.com/easy-wi/installer/archive/3.1.tar.gz
 tar zxf installer.tar.gz && mv ./installer-*/easy-wi_install.sh ./
 rm -r installer.tar.gz installer-*/
 
