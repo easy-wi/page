@@ -15,6 +15,7 @@ wget -O installer.tar.gz https://github.com/easy-wi/installer/archive/3.1.tar.gz
 tar zxf installer.tar.gz && mv ./installer-*/easy-wi_install.sh ./
 rm -r installer.tar.gz installer-*/
 
+
 #start the installer with (sudo required):
 sudo bash ./easy-wi_install.sh
 ```
