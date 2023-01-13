@@ -14,11 +14,6 @@ Andere apt/yum basierende Distributionen könnten funktionieren, wurden mit dem 
 
 Unterstützte Installationen sind `Standalone Panel at a blank system`, `Web Master`, `MySQL Master`, `Game Master` und `Voice Master`.
 
-## Easy-Wi WHCMS Addon
-
-Mittels des [Easy-Wi WHCMS Addon](https://github.com/easy-wi/whmcs/releases/latest) kann Easy-Wi in die Shop und Automatisierungs Software [WHMCS](https://www.whmcs.com/) itengriert werden.
-Hierbei kann die Benutzer und Service Provisionierung vollständig automatisiert werden.
-Des Weiteren kann die Leihserver und Protection Mode Status Page in den Shop inkludiert werden.
 
 ## Server Scripts
 
