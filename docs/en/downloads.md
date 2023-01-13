@@ -13,10 +13,6 @@ The Easy-Wi Webinterface can be downloaded via GitHub:
 
 Supported methods are `Standalone Panel at a blank system`, `Web Master`, `MySQL Master`, `Game Master` and `Voice Master`.
 
-## Easy-Wi WHCMS Addon
-
-With the [Easy-Wi WHCMS Addon](https://github.com/easy-wi/whmcs/releases/latest) Easy-Wi can be integrated into the shop software [WHMCS](https://www.whmcs.com/).
-User and service provisioning can be fully automated. Furthermore it is possible to include the lend server and protection status pages into the public page of the shop.
 
 ## Server Scripts
 
